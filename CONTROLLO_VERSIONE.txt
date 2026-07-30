@@ -1,0 +1,13 @@
+APERIPOST(UMI) — CONTROLLO BUILD
+
+Versione attesa: v0.2.2
+Indirizzo atteso: http://localhost:8083/?build=0.2.2
+
+Controlli:
+- nella barra superiore compare v0.2.2;
+- una carta che contiene già “beve”, “bere”, “sorso” o “sorsi” NON mostra l'alternativa gialla;
+- sulle altre carte compare soltanto “Alternativa: N sorsi”;
+- una carta-regola non appare nella lista appena visualizzata;
+- entra nella lista solo premendo “Attiva regola · Prossima”;
+- le regole confermate restano sempre visibili;
+- le carte narrative dei mazzi Confessioni, Sfide e Coppie/Squadre hanno ora un esito o un voto del gruppo.

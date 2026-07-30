@@ -1,0 +1,8 @@
+{
+  "appId": "it.madstoryteller11.aperipostumi",
+  "appName": "AperiPost(umi)",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}

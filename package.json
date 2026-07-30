@@ -1,0 +1,12 @@
+{
+  "name": "aperipostumi",
+  "version": "0.3.1-beta.0",
+  "private": true,
+  "description": "AperiPost(umi) - party game offline e modificabile",
+  "scripts": {
+    "serve": "npx http-server www -p 8080 -c-1",
+    "cap:sync": "npx cap sync android",
+    "cap:open": "npx cap open android",
+    "serve:pages": "npx http-server www -p 8086 -c-1"
+  }
+}

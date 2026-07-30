@@ -1,0 +1,15 @@
+APERIPOST(UMI) — TEST REGOLE v0.2.3
+
+Indirizzo: http://localhost:8084/?build=0.2.3
+
+Procedura:
+1. Inizia una partita includendo il mazzo Regole assurde.
+2. Quando appare una regola, apri subito il pannello: NON deve esserci ancora.
+3. Chiudi il pannello e premi “Attiva regola · Prossima”.
+4. Riapri il pannello: deve esserci esattamente la regola appena accettata.
+5. La carta successiva non deve mai essere inserita automaticamente.
+6. Un doppio clic non deve saltare due carte né attivare la regola successiva.
+
+Causa corretta:
+I pulsanti avevano sia un addEventListener fisso sia un onclick dinamico.
+Ora esiste soltanto il gestore dinamico associato all'ID della carta mostrata.
