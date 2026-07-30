@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#21152f">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="AperiPostumi">
+  <meta name="description" content="AperiPost(umi), party game locale e modificabile.">
+  <link rel="manifest" href="manifest.webmanifest?v=0.3.1-pages-beta">
+  <link rel="icon" href="assets/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css?v=0.3.1-pages-beta">
+  <title>AperiPost(umi)</title>
+</head>
+<body>
+  <header class="app-header">
+    <button class="brand" data-nav="setup" aria-label="Torna alla partita">
+      <span class="brand-mark">A(P)</span>
+      <span><b>AperiPost</b><em>(umi)</em></span>
+      <small class="build-badge beta-badge">v0.3.1 beta</small>
+    </button>
+    <nav>
+      <button data-nav="setup" class="nav-btn active">Gioca</button>
+      <button data-nav="editor" class="nav-btn">Mazzi</button>
+      <button data-nav="backup" class="nav-btn">Dati</button>
+      <button id="installBtn" class="nav-btn install hidden">Installa</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="screen-setup" class="screen active">
+      <div class="hero">
+        <p class="eyebrow">PARTY GAME OFFLINE</p>
+        <h1>L'aperitivo passa.<br><span>I postumi restano.</span></h1>
+        <p>Mischia i mazzi, inserisci i nomi e gioca. Ogni prova è facoltativa: l'alternativa è bere i sorsi indicati.</p>
+      </div>
+
+      <div class="panel setup-grid">
+        <div>
+          <div class="section-title"><h2>Giocatori</h2><span id="playerCount" class="count">0</span></div>
+          <form id="playerForm" class="player-form">
+            <input id="playerInput" maxlength="24" autocomplete="off" placeholder="Nome del giocatore" aria-label="Nome del giocatore">
+            <button type="submit" class="primary small">Aggiungi</button>
+          </form>
+          <div id="playerChips" class="chips"></div>
+          <p class="hint">Minimo 2 giocatori; alcuni mazzi richiedono almeno 3 o 4 persone.</p>
+        </div>
+
+        <div>
+          <div class="section-title"><h2>Intensità</h2></div>
+          <div class="intensity" id="intensityOptions">
+            <label><input type="radio" name="sips" value="1"><span><b>Leggera</b><small>1–2 sorsi</small></span></label>
+            <label><input type="radio" name="sips" value="2" checked><span><b>Normale</b><small>1–3 sorsi</small></span></label>
+            <label><input type="radio" name="sips" value="3"><span><b>Carica</b><small>2–3 sorsi</small></span></label>
+          </div>
+          <p class="hint">La quantità viene poi scalata in base alla difficoltà della singola carta.</p>
+        </div>
+      </div>
+
+      <div class="section-title decks-heading"><h2>Scegli i mazzi</h2><button id="toggleAllDecks" class="text-btn">Seleziona tutti</button></div>
+      <div id="deckPicker" class="deck-grid"></div>
+
+      <div class="start-bar">
+        <div><strong id="selectedSummary">0 carte selezionate</strong><small>Le carte non compatibili con il numero di giocatori saranno escluse.</small></div>
+        <button id="startGame" class="primary large">Inizia · 50 carte</button>
+      </div>
+      <div class="safety-note">🔞 “Senza filtro” è riservato ai maggiorenni. Non guidare dopo aver bevuto. Puoi sempre usare bevande analcoliche o punti penalità.</div>
+    </section>
+
+    <section id="screen-game" class="screen">
+      <div class="game-top">
+        <button id="quitGame" class="ghost">← Esci</button>
+        <div class="game-progress"><span id="progressText">Carta 1 di 50</span><div><i id="progressBar"></i></div></div>
+        <div class="game-top-actions">
+          <button id="rulesBtn" class="ghost">Regole <b id="rulesCount">0</b></button>
+          <button id="finishGameBtn" class="ghost finish-btn">Concludi</button>
+        </div>
+      </div>
+
+      <button id="activeRulesStrip" class="active-rules-strip hidden" type="button">
+        <span class="active-rules-label">🔒 Regole attive <b id="activeRulesCount">0</b></span>
+        <span id="activeRuleChips" class="active-rule-chips"></span>
+      </button>
+
+      <article id="gameCard" class="game-card">
+        <div id="gameDeckBadge" class="deck-badge">Mazzo</div>
+        <p id="gameCardText" class="card-text"></p>
+        <p id="fallbackText" class="fallback hidden"></p>
+        <p id="sessionPrompt" class="session-prompt hidden">Puoi continuare senza un nuovo limite oppure terminare con la sfida collettiva.</p>
+      </article>
+      <div class="game-actions">
+        <button id="drinkAndNext" class="secondary large">Bevo e passo</button>
+        <button id="doneAndNext" class="primary large">Fatto · Prossima</button>
+      </div>
+      <button id="feedbackCardBtn" class="feedback-card-btn" type="button">Non mi sembra interessante</button>
+    </section>
+
+    <section id="screen-feedback" class="screen">
+      <div class="feedback-page">
+        <div class="feedback-page-head">
+          <button id="feedbackCancelBtn" class="ghost" type="button">← Torna alla carta</button>
+          <div>
+            <p class="eyebrow">VERSIONE DI PROVA</p>
+            <h1>Proponi un’alternativa</h1>
+            <p>La proposta non modifica subito il mazzo: viene registrata per la revisione finale.</p>
+          </div>
+        </div>
+
+        <div class="feedback-layout">
+          <article class="feedback-original-card">
+            <div id="feedbackOriginalDeck" class="deck-badge">Mazzo</div>
+            <p id="feedbackOriginalText" class="feedback-original-text"></p>
+            <small>Carta: <b id="feedbackCardId"></b></small>
+          </article>
+
+          <form id="feedbackForm" class="panel feedback-form">
+            <label>
+              Nome o soprannome del tester
+              <input id="testerAlias" maxlength="40" autocomplete="nickname" placeholder="Es. Polu" required>
+            </label>
+
+            <fieldset>
+              <legend>Perché non funziona?</legend>
+              <div class="feedback-reasons">
+                <label><input type="checkbox" name="feedbackReason" value="noiosa"><span>Poco interessante</span></label>
+                <label><input type="checkbox" name="feedbackReason" value="facile"><span>Troppo facile</span></label>
+                <label><input type="checkbox" name="feedbackReason" value="confusa"><span>Poco chiara</span></label>
+                <label><input type="checkbox" name="feedbackReason" value="ripetitiva"><span>Ripetitiva</span></label>
+                <label><input type="checkbox" name="feedbackReason" value="personale"><span>Troppo personale</span></label>
+                <label><input type="checkbox" name="feedbackReason" value="penalita"><span>Penalità non adatta</span></label>
+                <label><input type="checkbox" name="feedbackReason" value="tono"><span>Tono da rivedere</span></label>
+                <label><input type="checkbox" name="feedbackReason" value="altro"><span>Altro</span></label>
+              </div>
+            </fieldset>
+
+            <label>
+              Carta alternativa proposta
+              <textarea id="feedbackProposal" rows="7" required></textarea>
+              <small>Puoi modificare il testo esistente. Mantieni variabili come {player1}, {player2} e {sips} quando servono.</small>
+            </label>
+
+            <label>
+              Nota facoltativa
+              <textarea id="feedbackNotes" rows="3" placeholder="Spiega il motivo della modifica o come dovrebbe funzionare."></textarea>
+            </label>
+
+            <p id="feedbackFormError" class="form-error" role="alert"></p>
+
+            <div class="modal-actions">
+              <button id="feedbackCancelBottom" class="ghost" type="button">Annulla</button>
+              <button class="primary" type="submit">Salva proposta e cambia carta</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen-editor" class="screen">
+      <div class="page-heading"><div><p class="eyebrow">EDITOR LOCALE</p><h1>Gestisci i mazzi</h1><p>Le modifiche restano su questo dispositivo finché non cancelli i dati dell'app.</p></div><button id="newDeckBtn" class="secondary">＋ Nuovo mazzo</button></div>
+      <div class="editor-layout">
+        <aside id="editorDecks" class="editor-decks"></aside>
+        <div class="editor-main">
+          <div class="editor-toolbar">
+            <div><h2 id="editorDeckTitle">Mazzo</h2><p id="editorDeckMeta"></p></div>
+            <div class="toolbar-actions"><input id="cardSearch" placeholder="Cerca nelle carte"><button id="resetDeckBtn" class="secondary">↩ Mazzo</button><button id="addCardBtn" class="primary">＋ Carta</button></div>
+          </div>
+          <div id="cardList" class="card-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen-backup" class="screen">
+      <div class="page-heading"><div><p class="eyebrow">DATI E BACKUP</p><h1>I tuoi mazzi, sotto il tuo controllo</h1><p>Esporta tutto in JSON, modificalo dal computer oppure importalo su un altro telefono.</p></div></div>
+      <section class="panel feedback-dashboard">
+        <div class="feedback-dashboard-head">
+          <div>
+            <p class="eyebrow">BETA TEST</p>
+            <h2>Proposte raccolte</h2>
+            <p>Ogni proposta resta collegata alla carta originale. Importa qui i JSON ricevuti dagli altri tester per creare un archivio unico.</p>
+          </div>
+          <div class="feedback-stats">
+            <span><b id="feedbackCount">0</b> proposte</span>
+            <span><b id="feedbackCardCount">0</b> carte segnalate</span>
+          </div>
+        </div>
+
+        <div class="feedback-tools">
+          <label>Nome tester<input id="testerAliasData" maxlength="40" placeholder="Nome o soprannome"></label>
+          <button id="exportFeedbackJson" class="primary" type="button">Esporta feedback JSON</button>
+          <button id="exportFeedbackCsv" class="secondary" type="button">Esporta CSV</button>
+          <label class="secondary file-label">Importa e unisci JSON
+            <input id="importFeedbackInput" type="file" accept="application/json,.json" multiple>
+          </label>
+          <button id="clearFeedbackBtn" class="danger" type="button">Svuota archivio</button>
+        </div>
+
+        <p class="feedback-device-id">ID installazione: <code id="feedbackInstallId"></code></p>
+        <div id="feedbackList" class="feedback-list"></div>
+      </section>
+
+      <div class="data-grid">
+        <div class="panel action-panel"><span>💾</span><h2>Esporta backup</h2><p>Scarica giocatori, mazzi e carte modificati.</p><button id="exportBtn" class="primary">Esporta JSON</button></div>
+        <div class="panel action-panel"><span>📥</span><h2>Importa backup</h2><p>Sostituisce i dati locali dopo una verifica del file.</p><label class="secondary file-label">Scegli JSON<input id="importInput" type="file" accept="application/json,.json"></label></div>
+        <div class="panel action-panel"><span>↩️</span><h2>Ripristina originali</h2><p>Elimina tutte le modifiche manuali e ricarica i 320 contenuti inclusi.</p><button id="resetBtn" class="danger">Ripristina tutto</button></div>
+      </div>
+      <div class="panel info-panel"><h2>Installazione</h2><p>Questa versione è una PWA: una volta pubblicata tramite HTTPS può essere installata dal browser e funziona offline. Il progetto include anche la configurazione di base per convertirla in APK con Capacitor.</p><p><b>Contatto del progetto:</b> madstoryteller11@gmail.com</p></div>
+    </section>
+  </main>
+
+  <dialog id="cardDialog" class="modal">
+    <form id="cardForm" method="dialog">
+      <div class="modal-head"><h2 id="cardDialogTitle">Modifica carta</h2><button value="cancel" class="icon-btn" aria-label="Chiudi">×</button></div>
+      <input type="hidden" id="editCardId">
+      <label>Testo della carta<textarea id="editCardText" rows="6" required></textarea></label>
+      <div class="form-grid">
+        <label>Giocatori minimi<input id="editMinPlayers" type="number" min="2" max="30" value="2"></label>
+        <label>Difficoltà / penalità<select id="editIntensity"><option value="1">1 · Facile</option><option value="2">2 · Media</option><option value="3">3 · Impegnativa</option></select></label>
+        <label>Durata<select id="editDuration"><option value="immediata">Immediata</option><option value="temporanea">Temporanea</option><option value="fino-a-revoca">Fino a revoca</option></select></label>
+        <label>Tag<input id="editTags" placeholder="sfida, gruppo, spicy"></label>
+      </div>
+      <div class="checks"><label><input id="editEnabled" type="checkbox" checked> Carta attiva</label><label><input id="editAdult" type="checkbox"> Solo maggiorenni</label><label><input id="editContact" type="checkbox"> Coinvolge contatto/consenso</label></div>
+      <div class="modal-actions"><button value="cancel" class="ghost">Annulla</button><button id="saveCardBtn" value="default" class="primary">Salva carta</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="deckDialog" class="modal compact">
+    <form id="deckForm" method="dialog">
+      <div class="modal-head"><h2>Nuovo mazzo</h2><button value="cancel" class="icon-btn">×</button></div>
+      <label>Nome<input id="newDeckName" required maxlength="40"></label>
+      <label>Descrizione<textarea id="newDeckDescription" rows="3"></textarea></label>
+      <label>Emoji<input id="newDeckEmoji" value="🎲" maxlength="4"></label>
+      <div class="checks"><label><input id="newDeckAdult" type="checkbox"> Solo maggiorenni</label></div>
+      <div class="modal-actions"><button value="cancel" class="ghost">Annulla</button><button value="default" class="primary">Crea mazzo</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="rulesDialog" class="modal compact">
+    <div class="modal-head"><h2>Regole attive</h2><button id="closeRules" class="icon-btn">×</button></div>
+    <div id="activeRulesList" class="active-rules"></div>
+    <p class="rules-lock-note">Le regole non possono essere schivate o rimosse: restano attive fino alla fine della partita.</p>
+  </dialog>
+
+    <dialog id="installDialog" class="modal install-dialog">
+    <form method="dialog" class="modal-head">
+      <h2 id="installDialogTitle">Installa AperiPost(umi)</h2>
+      <button id="closeInstallDialog" class="icon-btn" value="cancel" aria-label="Chiudi">×</button>
+    </form>
+    <p id="installDialogLead" class="install-lead"></p>
+    <ol id="installSteps" class="install-steps"></ol>
+    <div class="install-offline-note">
+      <strong>Funziona anche offline</strong>
+      <p id="installStorageNote"></p>
+    </div>
+    <button id="closeInstallDialogBottom" class="primary full" type="button">Ho capito</button>
+  </dialog>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script src="app.js?v=0.3.1-pages-beta"></script>
+</body>
+</html>

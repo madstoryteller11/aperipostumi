@@ -1,0 +1,5777 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.3.1-pages-beta",
+  "game": "AperiPost(umi)",
+  "contact": "madstoryteller11@gmail.com",
+  "decks": [
+    {
+      "id": "aperitivo",
+      "name": "Aperitivo",
+      "emoji": "🍹",
+      "description": "Rompighiaccio, brindisi e carte leggere.",
+      "color": "#ff8a3d",
+      "enabled": true,
+      "version": "1.0.0",
+      "cards": [
+        {
+          "id": "aperitivo_001",
+          "deck": "aperitivo",
+          "text": "{player1}, scegli chi ha l'aria più assetata: beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_002",
+          "deck": "aperitivo",
+          "text": "Brindisi lampo: tutti alzano il bicchiere. L'ultimo beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_003",
+          "deck": "aperitivo",
+          "text": "{player1}, racconta in dieci secondi come conosci {player2}. Se sfori, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_004",
+          "deck": "aperitivo",
+          "text": "Chi è arrivato per ultimo beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_005",
+          "deck": "aperitivo",
+          "text": "Chi ha il bicchiere più pieno assegna {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_006",
+          "deck": "aperitivo",
+          "text": "{player1}, nomina tre aperitivi. Se esiti, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_007",
+          "deck": "aperitivo",
+          "text": "Tutti indicano chi ordinerebbe ancora cibo dopo cena. Il più votato beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_008",
+          "deck": "aperitivo",
+          "text": "{player1}, scegli una parola vietata fino al prossimo turno. Chi la dice beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_009",
+          "deck": "aperitivo",
+          "text": "Chi ha fatto più chilometri per essere qui assegna {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_010",
+          "deck": "aperitivo",
+          "text": "{player1}, fai un complimento sincero a {player2}. Se il gruppo lo giudica generico, bevi {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_011",
+          "deck": "aperitivo",
+          "text": "Conta fino a tre: tutti mostrano da uno a cinque con le dita. Chi mostra il numero meno comune beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_012",
+          "deck": "aperitivo",
+          "text": "Chi ha già fotografato il tavolo beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_013",
+          "deck": "aperitivo",
+          "text": "{player1}, scegli chi saprebbe preparare il cocktail peggiore. Quella persona beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_014",
+          "deck": "aperitivo",
+          "text": "Tutti dicono contemporaneamente il proprio snack preferito. Chi coincide con qualcun altro assegna {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_015",
+          "deck": "aperitivo",
+          "text": "Chi indossa più colori beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_016",
+          "deck": "aperitivo",
+          "text": "{player1}, inventa il nome di un cocktail dedicato a {player2}. Se non fa ridere nessuno, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_017",
+          "deck": "aperitivo",
+          "text": "Chi ha il telefono con meno batteria beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_018",
+          "deck": "aperitivo",
+          "text": "Voto rapido: chi è più probabile che proponga «l'ultimo giro»? Il prescelto beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_019",
+          "deck": "aperitivo",
+          "text": "{player1}, scegli due persone che devono brindare tra loro e bere {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_020",
+          "deck": "aperitivo",
+          "text": "Chi ha mangiato per ultimo assegna {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_021",
+          "deck": "aperitivo",
+          "text": "Tutti toccano il tavolo. L'ultimo beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_022",
+          "deck": "aperitivo",
+          "text": "{player1}, elenca tre cose che non dovrebbero mai finire su una pizza. Se ti blocchi, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_023",
+          "deck": "aperitivo",
+          "text": "Chi ha più chiavi nel portachiavi beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_024",
+          "deck": "aperitivo",
+          "text": "Il gruppo sceglie il miglior soprannome della serata. Il vincitore assegna {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_025",
+          "deck": "aperitivo",
+          "text": "{player1}, scegli chi avrebbe più successo come barista. Quella persona assegna {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_026",
+          "deck": "aperitivo",
+          "text": "Chi ha il bicchiere più originale beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_027",
+          "deck": "aperitivo",
+          "text": "Tutti fanno cin cin senza parlare. Chi emette un suono beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_028",
+          "deck": "aperitivo",
+          "text": "{player1}, racconta il tuo aperitivo ideale in cinque parole. Ogni parola extra vale {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_029",
+          "deck": "aperitivo",
+          "text": "Chi ha inviato l'ultimo messaggio nel gruppo assegna {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_030",
+          "deck": "aperitivo",
+          "text": "Tutti indicano chi ha più probabilità di dimenticare dove ha parcheggiato. Il più votato beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_031",
+          "deck": "aperitivo",
+          "text": "{player1}, scegli una persona con cui scambiare posto. L'ultimo a sedersi beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_032",
+          "deck": "aperitivo",
+          "text": "Chi possiede più bicchieri a casa assegna {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_033",
+          "deck": "aperitivo",
+          "text": "Tutti dicono un ingrediente da cocktail in ordine. Chi ripete o esita beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_034",
+          "deck": "aperitivo",
+          "text": "{player1}, fai il verso di un elettrodomestico. Se nessuno indovina, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_035",
+          "deck": "aperitivo",
+          "text": "Chi ha la scarpa più chiara beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_036",
+          "deck": "aperitivo",
+          "text": "{player1}, indica chi sembra più sobrio. Il prescelto assegna {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_037",
+          "deck": "aperitivo",
+          "text": "A turno dite un locale della vostra città. Chi non ne trova uno beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_038",
+          "deck": "aperitivo",
+          "text": "Chi ha più monete addosso beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_039",
+          "deck": "aperitivo",
+          "text": "{player1}, scegli il brindisi ufficiale della partita. Tutti bevono {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "aperitivo_040",
+          "deck": "aperitivo",
+          "text": "Chi ha proposto di giocare assegna {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "leggero",
+            "rompighiaccio"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        }
+      ]
+    },
+    {
+      "id": "confessioni",
+      "name": "Confessioni",
+      "emoji": "🗣️",
+      "description": "Domande, votazioni e piccole verità.",
+      "color": "#8f6bff",
+      "enabled": true,
+      "version": "0.2.2",
+      "cards": [
+        {
+          "id": "confessioni_001",
+          "deck": "confessioni",
+          "text": "{player1}, racconta la scusa più assurda che hai usato per annullare un impegno. Puoi passare bevendo {sips} sorsi.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_002",
+          "deck": "confessioni",
+          "text": "Tutti indicano chi mentirebbe meglio a un colloquio. Il più votato beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_003",
+          "deck": "confessioni",
+          "text": "{player1}, qual è l'acquisto più inutile che difenderesti comunque? Convincici: se il gruppo non lo ritiene difendibile, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_004",
+          "deck": "confessioni",
+          "text": "{player1}, confessa una piccola abitudine che nascondi agli altri. Se il gruppo la considera troppo normale, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_005",
+          "deck": "confessioni",
+          "text": "Chi ha mai finto di non vedere un messaggio beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_006",
+          "deck": "confessioni",
+          "text": "{player1}, racconta una figuraccia che oggi ti fa ridere. Se non strappi almeno una risata, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_007",
+          "deck": "confessioni",
+          "text": "Tutti indicano chi sarebbe il primo a perdersi in vacanza. Il più votato beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_008",
+          "deck": "confessioni",
+          "text": "{player1}, qual è il complimento più strano che hai ricevuto? Se il gruppo non lo trova davvero strano, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_009",
+          "deck": "confessioni",
+          "text": "Chi ha mai cancellato e riscritto un messaggio più di tre volte beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_010",
+          "deck": "confessioni",
+          "text": "{player1}, quale tua opinione innocua provoca sempre discussioni? Se nessuno al tavolo la contesta, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_011",
+          "deck": "confessioni",
+          "text": "Tutti indicano chi potrebbe diventare famoso per caso. Il prescelto assegna {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_012",
+          "deck": "confessioni",
+          "text": "{player1}, racconta la bugia più innocente detta questa settimana. Se il gruppo non ti crede, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_013",
+          "deck": "confessioni",
+          "text": "Chi ha mai spiato il profilo di una persona per più di dieci minuti beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_014",
+          "deck": "confessioni",
+          "text": "{player1}, quale talento inutile possiedi? Dimostralo: se fallisci, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_015",
+          "deck": "confessioni",
+          "text": "Tutti indicano chi sopravviverebbe meglio senza telefono. Il meno votato beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_016",
+          "deck": "confessioni",
+          "text": "{player1}, qual è la tua peggior abitudine quando sei in ritardo? Se il gruppo la considera poco grave, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_017",
+          "deck": "confessioni",
+          "text": "Chi ha mai detto «sto arrivando» senza essere ancora uscito beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_018",
+          "deck": "confessioni",
+          "text": "{player1}, racconta la cosa più infantile che fai ancora volentieri. Se almeno un'altra persona non ammette di farla, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_019",
+          "deck": "confessioni",
+          "text": "Tutti indicano chi sarebbe il coinquilino più complicato. Il più votato beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_020",
+          "deck": "confessioni",
+          "text": "{player1}, qual è il film o la serie che ami ma non ammetti quasi mai? Se il gruppo non lo considera un vero piacere proibito, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_021",
+          "deck": "confessioni",
+          "text": "Chi ha mai riso in un momento completamente sbagliato beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_022",
+          "deck": "confessioni",
+          "text": "{player1}, quale messaggio avresti preferito non inviare? Raccontane abbastanza da far capire perché: se resti troppo vago, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_023",
+          "deck": "confessioni",
+          "text": "Tutti indicano chi controllerebbe il menù prima ancora di scegliere il ristorante. Il più votato beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_024",
+          "deck": "confessioni",
+          "text": "{player1}, qual è la cosa più strana che hai cercato online? Se il gruppo non la giudica abbastanza strana, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_025",
+          "deck": "confessioni",
+          "text": "Chi ha mai finto di conoscere una canzone beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_026",
+          "deck": "confessioni",
+          "text": "{player1}, racconta una promessa fatta a te stesso e mai mantenuta. Se non hai ancora iniziato a mantenerla, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_027",
+          "deck": "confessioni",
+          "text": "Tutti indicano chi potrebbe vendere meglio un oggetto inutile. Il prescelto assegna {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_028",
+          "deck": "confessioni",
+          "text": "{player1}, qual è il tuo difetto più evidente secondo te? Se il gruppo non è d'accordo, lascia scegliere a loro il difetto e bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_029",
+          "deck": "confessioni",
+          "text": "Chi ha mai salutato qualcuno senza ricordarne il nome beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_030",
+          "deck": "confessioni",
+          "text": "{player1}, quale moda del passato vorresti far tornare? Difendila: se non ottieni almeno un voto, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_031",
+          "deck": "confessioni",
+          "text": "Tutti indicano chi sarebbe più pericoloso con un microfono in mano. Il più votato beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_032",
+          "deck": "confessioni",
+          "text": "{player1}, racconta la volta in cui hai improvvisato fingendo di sapere cosa fare. Se il gruppo trova la storia poco convincente, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_033",
+          "deck": "confessioni",
+          "text": "Chi ha mai aperto il frigorifero senza sapere perché beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_034",
+          "deck": "confessioni",
+          "text": "{player1}, quale tua convinzione è cambiata completamente negli ultimi anni? Se non riesci a spiegare cosa ti ha fatto cambiare idea, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_035",
+          "deck": "confessioni",
+          "text": "Tutti indicano chi prenderebbe più seriamente un gioco stupido. Il più votato beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_036",
+          "deck": "confessioni",
+          "text": "{player1}, racconta un piccolo rimorso che non ti pesa più. Se il gruppo lo considera troppo innocente, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_037",
+          "deck": "confessioni",
+          "text": "Chi ha mai giudicato un libro dalla copertina, letteralmente o no, beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_038",
+          "deck": "confessioni",
+          "text": "{player1}, quale regola sociale trovi incomprensibile? Se nessuno è d'accordo con te, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_039",
+          "deck": "confessioni",
+          "text": "Tutti indicano chi si addormenterebbe per primo durante una maratona. Il più votato beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "confessioni_040",
+          "deck": "confessioni",
+          "text": "{player1}, scegli: rivelare l'ultima foto nel rullino o bere {sips} sorsi.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "domanda",
+            "votazione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        }
+      ]
+    },
+    {
+      "id": "sfide",
+      "name": "Sfide",
+      "emoji": "⚡",
+      "description": "Mimo, rapidità, improvvisazione e duelli.",
+      "color": "#38a6ff",
+      "enabled": true,
+      "version": "0.2.2",
+      "cards": [
+        {
+          "id": "sfide_001",
+          "deck": "sfide",
+          "text": "{player1} e {player2}, guardatevi senza ridere. Il primo che ride beve {sips} sorsi.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_002",
+          "deck": "sfide",
+          "text": "{player1}, pronuncia l'alfabeto al contrario partendo dalla Z fino alla T. Se sbagli, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "temporanea",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_003",
+          "deck": "sfide",
+          "text": "{player1}, imita un animale. Il gruppo ha un tentativo per indovinare: se fallisce, bevi {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_004",
+          "deck": "sfide",
+          "text": "{player1}, tieni un cucchiaino in equilibrio su un dito per dieci secondi. Se cade, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_005",
+          "deck": "sfide",
+          "text": "{player1} e {player2}, sfida di pollici. Chi perde beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_006",
+          "deck": "sfide",
+          "text": "{player1}, fai cinque complimenti diversi a {player2} in dieci secondi. Se esiti o ne ripeti uno, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_007",
+          "deck": "sfide",
+          "text": "{player1}, racconta una storia di venti secondi includendo ascensore, banana e fantasma. Se il gruppo non la considera coerente, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_008",
+          "deck": "sfide",
+          "text": "{player1}, prova a far ridere il gruppo senza parlare. Se fallisci, bevi {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_009",
+          "deck": "sfide",
+          "text": "{player1} e {player2}, dite a turno nomi di città. Chi esita beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_010",
+          "deck": "sfide",
+          "text": "{player1}, resta immobile fino alla prossima carta. Se ti muovi, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "temporanea",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_011",
+          "deck": "sfide",
+          "text": "{player1}, canta il ritornello di una canzone sostituendo tutte le parole con «la». Se ti fermi o ridi, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_012",
+          "deck": "sfide",
+          "text": "{player1} e {player2}, fate carta-forbice-sasso al meglio delle tre. Chi perde beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_013",
+          "deck": "sfide",
+          "text": "{player1}, descrivi un film famoso senza usare nomi propri. Se il gruppo non indovina, bevi {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_014",
+          "deck": "sfide",
+          "text": "{player1}, fai il presentatore televisivo per la prossima carta. Se esci dal personaggio, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_015",
+          "deck": "sfide",
+          "text": "{player1}, pronuncia tre scioglilingua inventati senza ridere. A ogni errore, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_016",
+          "deck": "sfide",
+          "text": "{player1} e {player2}, sfida di memoria: ripetete una lista aggiungendo una parola. Chi sbaglia beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_017",
+          "deck": "sfide",
+          "text": "{player1}, costruisci una torre con tre oggetti del tavolo. Se cade, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_018",
+          "deck": "sfide",
+          "text": "{player1}, parla con accento teatrale fino al tuo prossimo turno. Se te ne dimentichi, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "temporanea",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_019",
+          "deck": "sfide",
+          "text": "{player1}, mima un mestiere scelto da {player2}. Se {player2} non indovina, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_020",
+          "deck": "sfide",
+          "text": "{player1} e {player2}, dite contemporaneamente un numero da uno a cinque. Se coincidono, assegnate {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 1,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_021",
+          "deck": "sfide",
+          "text": "{player1}, fai dieci secondi di telecronaca di ciò che accade al tavolo. Se il gruppo non applaude, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_022",
+          "deck": "sfide",
+          "text": "{player1}, prova a toccarti il naso con la lingua. Se non riesci, scegli qualcuno che beva {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_023",
+          "deck": "sfide",
+          "text": "{player1} e {player2}, sfida di sguardi: chi distoglie per primo beve {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_024",
+          "deck": "sfide",
+          "text": "{player1}, inventa uno slogan per AperiPost(umi). Se il gruppo decide che non merita un brindisi, bevi {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_025",
+          "deck": "sfide",
+          "text": "{player1}, nomina cinque cose rosse in cinque secondi. Se fallisci, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_026",
+          "deck": "sfide",
+          "text": "{player1}, fai una posa da statua fino alla prossima carta. Se ti muovi, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "temporanea",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_027",
+          "deck": "sfide",
+          "text": "{player1} e {player2}, raccontate una storia di dieci secondi ciascuno. Il gruppo vota la più credibile: chi perde beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_028",
+          "deck": "sfide",
+          "text": "{player1}, imita una notifica del telefono. Chi indovina assegna {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_029",
+          "deck": "sfide",
+          "text": "{player1}, tieni un oggetto leggero sulla testa per due carte. Se cade, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "temporanea",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_030",
+          "deck": "sfide",
+          "text": "{player1}, parla in rima fino al tuo prossimo turno. Ogni errore vale {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "temporanea",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_031",
+          "deck": "sfide",
+          "text": "{player1} e {player2}, dovete dire la stessa parola al terzo tentativo partendo da parole diverse. Se fallite, bevete {sips} sorso ciascuno.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_032",
+          "deck": "sfide",
+          "text": "{player1}, descrivi {player2} come fosse un prodotto di televendita. Se il gruppo non lo comprerebbe, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_033",
+          "deck": "sfide",
+          "text": "{player1}, fai un brindisi epico di almeno quindici secondi. Se dura meno o nessuno applaude, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_034",
+          "deck": "sfide",
+          "text": "{player1}, conta fino a venti alternando un numero e un frutto. Se sbagli, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "temporanea",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_035",
+          "deck": "sfide",
+          "text": "{player1} e {player2}, uno mima e l'altro deve indovinare tre oggetti in trenta secondi. Se fallite, bevete {sips} sorso ciascuno.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_036",
+          "deck": "sfide",
+          "text": "{player1}, fai la voce di un navigatore satellitare fino alla prossima carta. Se te ne dimentichi, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "temporanea",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_037",
+          "deck": "sfide",
+          "text": "{player1}, racconta una barzelletta. Se nessuno ride, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_038",
+          "deck": "sfide",
+          "text": "{player1} e {player2}, inventate una stretta di mano in dieci secondi. Se non riuscite a ripeterla uguale, bevete {sips} sorso ciascuno.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_039",
+          "deck": "sfide",
+          "text": "{player1}, tieni gli occhi chiusi mentre il gruppo sposta un oggetto. Se non indovini quale, bevi {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "sfide_040",
+          "deck": "sfide",
+          "text": "{player1}, fai una dichiarazione drammatica a un oggetto del tavolo. Se nessuno applaude, bevi {sips} sorso.",
+          "minPlayers": 2,
+          "intensity": 2,
+          "tags": [
+            "sfida",
+            "rapidità"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        }
+      ]
+    },
+    {
+      "id": "regole_assurde",
+      "name": "Regole assurde",
+      "emoji": "🌀",
+      "description": "Regole persistenti che complicano la serata.",
+      "color": "#40c98b",
+      "enabled": true,
+      "version": "1.0.0",
+      "cards": [
+        {
+          "id": "regole_assurde_001",
+          "deck": "regole_assurde",
+          "text": "Da ora, chi pronuncia la parola «bere» deve alzare il mignolo. Chi dimentica beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_002",
+          "deck": "regole_assurde",
+          "text": "Fino a revoca, nessuno può chiamare gli altri per nome. Chi sbaglia beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_003",
+          "deck": "regole_assurde",
+          "text": "Ogni volta che qualcuno beve, {player1} deve fare un applauso. Se dimentica, beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_004",
+          "deck": "regole_assurde",
+          "text": "Da ora, prima di parlare bisogna dire «comunicazione ufficiale». Chi dimentica beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_005",
+          "deck": "regole_assurde",
+          "text": "Fino a revoca, è vietato indicare con il dito. Ogni infrazione vale {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_006",
+          "deck": "regole_assurde",
+          "text": "Da ora, tutti devono tenere il bicchiere con la mano non dominante.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_007",
+          "deck": "regole_assurde",
+          "text": "Ogni domanda deve terminare con «vero?». Chi dimentica beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_008",
+          "deck": "regole_assurde",
+          "text": "Fino a revoca, chi ride deve dire «non era divertente». Se non lo fa, beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_009",
+          "deck": "regole_assurde",
+          "text": "Da ora, ogni brindisi deve includere la parola «postumi».",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_010",
+          "deck": "regole_assurde",
+          "text": "Fino a revoca, nessuno può dire sì o no. Chi sbaglia beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_011",
+          "deck": "regole_assurde",
+          "text": "Da ora, quando esce il nome di {player1}, tutti devono toccarsi il naso. L'ultimo beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_012",
+          "deck": "regole_assurde",
+          "text": "Ogni volta che qualcuno prende il telefono, deve annunciare «modalità importante».",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_013",
+          "deck": "regole_assurde",
+          "text": "Fino a revoca, bisogna parlare di sé in terza persona.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_014",
+          "deck": "regole_assurde",
+          "text": "Da ora, chi si alza deve chiedere il permesso al gruppo.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_015",
+          "deck": "regole_assurde",
+          "text": "Ogni volta che qualcuno dice «io», deve battere una volta sul tavolo.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_016",
+          "deck": "regole_assurde",
+          "text": "Fino a revoca, il primo che incrocia le braccia beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_017",
+          "deck": "regole_assurde",
+          "text": "Da ora, {player1} è il Sindaco dell'Aperitivo: può approvare o bocciare un brindisi.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_018",
+          "deck": "regole_assurde",
+          "text": "Ogni volta che qualcuno pronuncia un nome di città, tutti devono dire «presente». L'ultimo beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_019",
+          "deck": "regole_assurde",
+          "text": "Fino a revoca, è vietato usare parole inglesi. Ogni errore vale {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_020",
+          "deck": "regole_assurde",
+          "text": "Da ora, prima di bere bisogna fare un cenno solenne a {player1}.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_021",
+          "deck": "regole_assurde",
+          "text": "Ogni volta che qualcuno sbadiglia, tutti devono imitarlo. L'ultimo beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_022",
+          "deck": "regole_assurde",
+          "text": "Fino a revoca, chi fa una domanda deve tenere un dito alzato.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_023",
+          "deck": "regole_assurde",
+          "text": "Da ora, nessuno può poggiare i gomiti sul tavolo.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_024",
+          "deck": "regole_assurde",
+          "text": "Ogni volta che qualcuno dice «ma», deve correggersi dicendo «tuttavia».",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_025",
+          "deck": "regole_assurde",
+          "text": "Fino a revoca, chi riceve un sorso può trasferirne metà a un'altra persona.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_026",
+          "deck": "regole_assurde",
+          "text": "Da ora, {player1} decide una parola segreta. Chi la pronuncia beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_027",
+          "deck": "regole_assurde",
+          "text": "Ogni volta che cambia la carta, tutti devono dire «prossimi postumi». L'ultimo beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_028",
+          "deck": "regole_assurde",
+          "text": "Fino a revoca, è vietato usare il verbo «avere».",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_029",
+          "deck": "regole_assurde",
+          "text": "Da ora, chi parla per più di venti secondi deve concludere con un inchino.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_030",
+          "deck": "regole_assurde",
+          "text": "Ogni volta che qualcuno tocca il viso, deve fare un brindisi.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_031",
+          "deck": "regole_assurde",
+          "text": "Fino a revoca, {player1} può essere chiamato solo «Sua Sete».",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_032",
+          "deck": "regole_assurde",
+          "text": "Da ora, il gruppo sceglie una parola che deve essere sussurrata ogni volta.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_033",
+          "deck": "regole_assurde",
+          "text": "Ogni volta che qualcuno interrompe un altro, beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_034",
+          "deck": "regole_assurde",
+          "text": "Fino a revoca, nessuno può accavallare le gambe.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_035",
+          "deck": "regole_assurde",
+          "text": "Da ora, ogni risposta deve iniziare con una parola scelta da {player1}.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_036",
+          "deck": "regole_assurde",
+          "text": "Ogni volta che qualcuno ride mostrando i denti, deve assegnare {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_037",
+          "deck": "regole_assurde",
+          "text": "Fino a revoca, chi dice un numero deve mostrarlo anche con le dita.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_038",
+          "deck": "regole_assurde",
+          "text": "Da ora, quando qualcuno dice «ultimo», tutti devono alzare il bicchiere.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_039",
+          "deck": "regole_assurde",
+          "text": "Ogni volta che qualcuno sbaglia un nome, beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "regole_assurde_040",
+          "deck": "regole_assurde",
+          "text": "Fino a revoca, il gruppo parla come se fosse in una riunione aziendale.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "regola",
+            "persistente"
+          ],
+          "duration": "fino-a-revoca",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        }
+      ]
+    },
+    {
+      "id": "tutti_contro_tutti",
+      "name": "Tutti contro tutti",
+      "emoji": "🏆",
+      "description": "Giochi collettivi, minoranze e votazioni.",
+      "color": "#ff5d68",
+      "enabled": true,
+      "version": "1.0.0",
+      "cards": [
+        {
+          "id": "tutti_contro_tutti_001",
+          "deck": "tutti_contro_tutti",
+          "text": "Tutti mostrano un numero da uno a cinque. Chi è l'unico con un numero diverso beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_002",
+          "deck": "tutti_contro_tutti",
+          "text": "A turno nominate un gusto di gelato. Chi ripete o esita beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_003",
+          "deck": "tutti_contro_tutti",
+          "text": "Tutti indicano la persona più competitiva. Il più votato beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_004",
+          "deck": "tutti_contro_tutti",
+          "text": "Giro di brindisi: ognuno dice una parola. Chi spezza il ritmo beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_005",
+          "deck": "tutti_contro_tutti",
+          "text": "Tutti scelgono segretamente pari o dispari con le dita. La minoranza beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_006",
+          "deck": "tutti_contro_tutti",
+          "text": "A turno nominate un animale. Chi ne dice uno già usato beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_007",
+          "deck": "tutti_contro_tutti",
+          "text": "Tutti si alzano senza parlare. L'ultimo beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_008",
+          "deck": "tutti_contro_tutti",
+          "text": "Il gruppo vota chi sarebbe il peggior concorrente di un quiz. Il prescelto beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_009",
+          "deck": "tutti_contro_tutti",
+          "text": "A turno dite una parola che inizi con l'ultima lettera della precedente. Chi sbaglia beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_010",
+          "deck": "tutti_contro_tutti",
+          "text": "Tutti chiudono gli occhi e indicano una persona. Chi riceve più dita beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_011",
+          "deck": "tutti_contro_tutti",
+          "text": "Gara di silenzio per una carta: il primo che parla beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_012",
+          "deck": "tutti_contro_tutti",
+          "text": "A turno nominate un film. Chi esita beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_013",
+          "deck": "tutti_contro_tutti",
+          "text": "Tutti fanno una posa. Il gruppo elimina la meno originale: quella persona beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_014",
+          "deck": "tutti_contro_tutti",
+          "text": "Il giocatore più giovane sceglie una categoria. Giro rapido: chi si blocca beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_015",
+          "deck": "tutti_contro_tutti",
+          "text": "Tutti devono battere le mani in sequenza. Chi perde il ritmo beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_016",
+          "deck": "tutti_contro_tutti",
+          "text": "Il gruppo vota il miglior narratore. Il vincitore assegna {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_017",
+          "deck": "tutti_contro_tutti",
+          "text": "A turno nominate qualcosa che si trova in cucina. Chi ripete beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_018",
+          "deck": "tutti_contro_tutti",
+          "text": "Tutti dicono contemporaneamente un colore. Chi resta solo beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_019",
+          "deck": "tutti_contro_tutti",
+          "text": "Il gruppo elegge il Re o la Regina dei Postumi. Il prescelto assegna {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_020",
+          "deck": "tutti_contro_tutti",
+          "text": "A turno imitate un suono. Chi ripete un suono già fatto beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_021",
+          "deck": "tutti_contro_tutti",
+          "text": "Tutti appoggiano un dito sul tavolo. {player1} conta fino a tre: chi lo solleva da solo beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_022",
+          "deck": "tutti_contro_tutti",
+          "text": "Il gruppo vota chi sarebbe più credibile come agente segreto. Il meno votato beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_023",
+          "deck": "tutti_contro_tutti",
+          "text": "A turno nominate una bevanda analcolica. Chi esita beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_024",
+          "deck": "tutti_contro_tutti",
+          "text": "Tutti cambiano posto. L'ultimo a sedersi beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_025",
+          "deck": "tutti_contro_tutti",
+          "text": "Il gruppo inventa un titolo di giornale sulla serata. L'autore del peggiore beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_026",
+          "deck": "tutti_contro_tutti",
+          "text": "A turno dite una parola in rima con «sera». Chi non ne trova beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_027",
+          "deck": "tutti_contro_tutti",
+          "text": "Tutti mostrano pollice su o giù. La minoranza beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_028",
+          "deck": "tutti_contro_tutti",
+          "text": "Il gruppo vota chi ha la risata più riconoscibile. Il prescelto assegna {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_029",
+          "deck": "tutti_contro_tutti",
+          "text": "A turno nominate una cosa che non portereste su un'isola deserta. Chi ripete beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_030",
+          "deck": "tutti_contro_tutti",
+          "text": "Tutti imitano {player1}. L'ultimo a capire cosa fare beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_031",
+          "deck": "tutti_contro_tutti",
+          "text": "Il gruppo sceglie una persona che deve raccontare una storia di trenta secondi. Se si ferma, beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_032",
+          "deck": "tutti_contro_tutti",
+          "text": "A turno nominate un personaggio immaginario. Chi esita beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_033",
+          "deck": "tutti_contro_tutti",
+          "text": "Tutti indicano chi potrebbe vivere senza orologio. Il più votato assegna {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_034",
+          "deck": "tutti_contro_tutti",
+          "text": "Il gruppo forma due file immaginarie: mattinieri e nottambuli. Il gruppo più piccolo beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_035",
+          "deck": "tutti_contro_tutti",
+          "text": "A turno dite una parola di quattro lettere. Chi sbaglia lunghezza beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_036",
+          "deck": "tutti_contro_tutti",
+          "text": "Tutti fanno un rumore da animale. Il gruppo sceglie il peggiore: beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_037",
+          "deck": "tutti_contro_tutti",
+          "text": "Il gruppo vota chi organizzerebbe meglio una fuga improvvisata. Il prescelto assegna {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_038",
+          "deck": "tutti_contro_tutti",
+          "text": "A turno nominate un oggetto rotondo. Chi ripete beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_039",
+          "deck": "tutti_contro_tutti",
+          "text": "Tutti devono cambiare espressione al conto di tre. Chi resta uguale beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "tutti_contro_tutti_040",
+          "deck": "tutti_contro_tutti",
+          "text": "Finale collettivo: tutti brindano. Chi dimentica lo slogan della partita beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "gruppo",
+            "competizione"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        }
+      ]
+    },
+    {
+      "id": "coppie_squadre",
+      "name": "Coppie e squadre",
+      "emoji": "🤝",
+      "description": "Prove cooperative e competizioni a gruppi.",
+      "color": "#f4c542",
+      "enabled": true,
+      "version": "0.2.2",
+      "cards": [
+        {
+          "id": "coppie_squadre_001",
+          "deck": "coppie_squadre",
+          "text": "{player1} e {player2}, inventate un nome di squadra. Se il gruppo decide che non merita un brindisi, bevete {sips} sorso ciascuno.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_002",
+          "deck": "coppie_squadre",
+          "text": "Dividetevi in due squadre. A turno nominate città: la prima squadra che esita beve {sips} sorso a testa.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_003",
+          "deck": "coppie_squadre",
+          "text": "{player1} descrive un oggetto senza nominarlo; {player2} deve indovinarlo. Se fallisce, bevete {sips} sorso ciascuno.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_004",
+          "deck": "coppie_squadre",
+          "text": "Coppie casuali: ogni coppia inventa una stretta di mano. Il gruppo vota la migliore; i componenti dell'ultima classificata bevono {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_005",
+          "deck": "coppie_squadre",
+          "text": "{player1} e {player2}, fate carta-forbice-sasso. Chi perde beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_006",
+          "deck": "coppie_squadre",
+          "text": "Due squadre: una sceglie una categoria, l'altra deve dire cinque elementi in dieci secondi. Se fallisce, ogni componente beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_007",
+          "deck": "coppie_squadre",
+          "text": "{player1} mima un film e {player2} deve indovinarlo in venti secondi. Se fallisce, bevete {sips} sorso ciascuno.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_008",
+          "deck": "coppie_squadre",
+          "text": "Ogni coppia sceglie un suono di riconoscimento. L'ultima coppia pronta beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_009",
+          "deck": "coppie_squadre",
+          "text": "{player1} e {player2}, raccontate insieme una storia alternando una parola a testa. Al primo errore, bevete {sips} sorso ciascuno.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_010",
+          "deck": "coppie_squadre",
+          "text": "Due squadre: gara di applausi coordinati. Il gruppo meno sincronizzato beve {sips} sorso a testa.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_011",
+          "deck": "coppie_squadre",
+          "text": "{player1} deve far ridere {player2} senza parlare. Se riesce, {player2} beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_012",
+          "deck": "coppie_squadre",
+          "text": "Coppie: uno descrive una persona al tavolo, l'altro deve indovinarla. Se fallisce, la coppia beve {sips} sorso a testa.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_013",
+          "deck": "coppie_squadre",
+          "text": "{player1} e {player2}, scegliete un motto. Dovrete ripeterlo quando uno di voi beve.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "temporanea",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_014",
+          "deck": "coppie_squadre",
+          "text": "Due squadre: nominate a turno oggetti da ufficio. Chi si blocca fa bere la propria squadra.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_015",
+          "deck": "coppie_squadre",
+          "text": "{player1} e {player2}, provate a dire la stessa parola al terzo tentativo. Se fallite, bevete {sips} sorso ciascuno.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_016",
+          "deck": "coppie_squadre",
+          "text": "Ogni coppia sceglie un gesto. Il gruppo vota quello più assurdo; la coppia meno votata beve {sips} sorso a testa.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_017",
+          "deck": "coppie_squadre",
+          "text": "{player1} racconta due verità e una bugia; {player2} deve trovare la bugia. Se sbaglia, beve {sips} sorso; se indovina, beve {player1}.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_018",
+          "deck": "coppie_squadre",
+          "text": "Due squadre: una persona per parte mima lo stesso animale. Il gruppo sceglie il mimo meno riconoscibile: la sua squadra beve {sips} sorso a testa.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_019",
+          "deck": "coppie_squadre",
+          "text": "{player1} e {player2}, fate un brindisi in rima. Se fallite, bevete {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_020",
+          "deck": "coppie_squadre",
+          "text": "Coppie: uno tiene gli occhi chiusi, l'altro descrive un oggetto da disegnare con il dito sul tavolo. Se il gruppo non lo riconosce, bevete {sips} sorso ciascuno.",
+          "minPlayers": 4,
+          "intensity": 1,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_021",
+          "deck": "coppie_squadre",
+          "text": "{player1} e {player2}, inventate il titolo di un film sulla serata. Se il gruppo non lo guarderebbe, bevete {sips} sorso ciascuno.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_022",
+          "deck": "coppie_squadre",
+          "text": "Due squadre: gara di memoria con una lista di parole crescente. La prima squadra che sbaglia beve {sips} sorso a testa.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_023",
+          "deck": "coppie_squadre",
+          "text": "{player1} deve imitare {player2}; il gruppo decide quanto è fedele. Se non convince la maggioranza, {player1} beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_024",
+          "deck": "coppie_squadre",
+          "text": "Ogni coppia sceglie chi è mente e chi è braccio. Il braccio esegue una posa scelta dalla mente; se il gruppo non la capisce, bevete {sips} sorso ciascuno.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_025",
+          "deck": "coppie_squadre",
+          "text": "{player1} e {player2}, raccontate lo stesso evento da due punti di vista opposti. Chi convince meno il gruppo beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_026",
+          "deck": "coppie_squadre",
+          "text": "Due squadre: create uno slogan per AperiPost(umi). La squadra meno votata beve {sips} sorso a testa.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_027",
+          "deck": "coppie_squadre",
+          "text": "{player1} e {player2}, fate una sfida di sguardi. Chi perde beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_028",
+          "deck": "coppie_squadre",
+          "text": "Coppie: inventate una pubblicità per un oggetto del tavolo. La coppia meno convincente beve {sips} sorso a testa.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_029",
+          "deck": "coppie_squadre",
+          "text": "{player1} dice tre parole; {player2} deve creare una frase sensata con tutte. Se fallisce, beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_030",
+          "deck": "coppie_squadre",
+          "text": "Due squadre: gara di nomi propri in ordine alfabetico. La prima squadra che sbaglia beve {sips} sorso a testa.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_031",
+          "deck": "coppie_squadre",
+          "text": "{player1} e {player2}, scegliete un terzo giocatore e preparategli un complimento a due voci. Se non lo convince, bevete {sips} sorso ciascuno.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_032",
+          "deck": "coppie_squadre",
+          "text": "Ogni coppia crea una posa da copertina. Il gruppo sceglie la peggiore: quella coppia beve {sips} sorso a testa.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_033",
+          "deck": "coppie_squadre",
+          "text": "{player1} e {player2}, uno fa il rumore e l'altro mima l'oggetto. Se il gruppo non indovina, bevete {sips} sorso ciascuno.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_034",
+          "deck": "coppie_squadre",
+          "text": "Due squadre: una inventa una domanda assurda, l'altra deve rispondere seriamente. Se ride, la squadra che risponde beve {sips} sorso a testa.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_035",
+          "deck": "coppie_squadre",
+          "text": "{player1} e {player2}, pronunciate insieme uno scioglilingua scelto dal gruppo. A ogni errore, bevete {sips} sorso ciascuno.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_036",
+          "deck": "coppie_squadre",
+          "text": "Coppie: uno racconta una storia, l'altro aggiunge effetti sonori. La coppia meno votata beve {sips} sorso a testa.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_037",
+          "deck": "coppie_squadre",
+          "text": "{player1} e {player2}, decidete chi dei due sarebbe più adatto a condurre un programma televisivo. Chi perde il dibattito beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_038",
+          "deck": "coppie_squadre",
+          "text": "Due squadre: create un coro di cinque secondi. Il meno convincente beve {sips} sorso a testa.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_039",
+          "deck": "coppie_squadre",
+          "text": "{player1} e {player2}, fate un'intervista reciproca con una domanda ciascuno. Se una risposta è troppo evasiva, chi l'ha data beve {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "coppie_squadre_040",
+          "deck": "coppie_squadre",
+          "text": "Ogni coppia sceglie una parola segreta. La prima coppia che riesce a farla pronunciare a qualcuno assegna {sips} sorso.",
+          "minPlayers": 4,
+          "intensity": 2,
+          "tags": [
+            "coppie",
+            "squadre"
+          ],
+          "duration": "temporanea",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": false,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        }
+      ]
+    },
+    {
+      "id": "senza_filtro",
+      "name": "Senza filtro",
+      "emoji": "🌶️",
+      "description": "Flirt, confessioni e prove spicy per maggiorenni.",
+      "color": "#ff4fa1",
+      "adultOnly": true,
+      "enabled": true,
+      "version": "1.2.0",
+      "cards": [
+        {
+          "id": "senza_filtro_001",
+          "deck": "senza_filtro",
+          "text": "{player1}, indica la persona al tavolo con cui usciresti più volentieri. Se non vuoi rispondere, bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_002",
+          "deck": "senza_filtro",
+          "text": "{player1}, racconta il flirt più riuscito della tua vita oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_003",
+          "deck": "senza_filtro",
+          "text": "Tutti indicano chi avrebbe più successo su un'app di incontri. Il più votato assegna {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_004",
+          "deck": "senza_filtro",
+          "text": "{player1}, rivela il tuo tipo ideale in tre parole oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_005",
+          "deck": "senza_filtro",
+          "text": "{player1}, qual è il dettaglio fisico che noti per primo? Rispondi oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_006",
+          "deck": "senza_filtro",
+          "text": "Chi ha mai baciato qualcuno conosciuto la stessa sera beve {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_007",
+          "deck": "senza_filtro",
+          "text": "{player1}, fai un complimento apertamente seducente a {player2}, se entrambi siete d'accordo. In alternativa, bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_008",
+          "deck": "senza_filtro",
+          "text": "Tutti indicano chi potrebbe conquistare qualcuno con una sola frase. Il più votato prova una frase d'approccio oppure beve {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_009",
+          "deck": "senza_filtro",
+          "text": "{player1}, racconta la tua peggior figuraccia durante un momento romantico oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_010",
+          "deck": "senza_filtro",
+          "text": "Chi ha mai mandato un messaggio provocante e poi se n'è pentito beve {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_011",
+          "deck": "senza_filtro",
+          "text": "{player1}, mima da solo una posizione del Kamasutra scelta dal gruppo, senza contatto con nessuno, oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_012",
+          "deck": "senza_filtro",
+          "text": "{player1}, fai sentire al gruppo il tuo verso di godimento più teatrale ed esagerato oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_013",
+          "deck": "senza_filtro",
+          "text": "Tutti indicano chi sembra più bravo a baciare. Il più votato assegna {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_014",
+          "deck": "senza_filtro",
+          "text": "{player1}, racconta una fantasia seducente che puoi condividere senza disagio oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_015",
+          "deck": "senza_filtro",
+          "text": "Chi ha mai avuto una cotta per una persona già impegnata beve {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_016",
+          "deck": "senza_filtro",
+          "text": "{player1}, scegli una persona consenziente e mimate insieme una posizione del Kamasutra completamente vestiti e senza contatto intimo. In alternativa, entrambi bevete {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": true,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_017",
+          "deck": "senza_filtro",
+          "text": "{player1}, descrivi il tuo appuntamento perfetto dopo mezzanotte oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_018",
+          "deck": "senza_filtro",
+          "text": "Tutti indicano chi vivrebbe meglio una relazione aperta. Il più votato commenta oppure beve {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_019",
+          "deck": "senza_filtro",
+          "text": "{player1}, racconta la frase più audace che hai detto o ricevuto oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_020",
+          "deck": "senza_filtro",
+          "text": "Chi ha mai baciato due persone diverse nella stessa serata beve {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_021",
+          "deck": "senza_filtro",
+          "text": "{player1}, indica chi al tavolo avrebbe più probabilità di farti arrossire con un messaggio oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_022",
+          "deck": "senza_filtro",
+          "text": "{player1}, racconta un bacio memorabile oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_023",
+          "deck": "senza_filtro",
+          "text": "Tutti indicano chi sarebbe più pericoloso dopo due complimenti e uno sguardo. Il prescelto assegna {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_024",
+          "deck": "senza_filtro",
+          "text": "{player1}, racconta la tua red flag più piccante oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_025",
+          "deck": "senza_filtro",
+          "text": "Chi ha mai flirtato sapendo di non voler concludere nulla beve {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_026",
+          "deck": "senza_filtro",
+          "text": "{player1}, fai a {player2} una domanda adulta ma rispettosa. Se non vuoi farla, bevi {sips} sorsi; {player2} può non rispondere bevendo {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_027",
+          "deck": "senza_filtro",
+          "text": "{player1}, qual è il luogo più strano in cui baceresti qualcuno? Rispondi oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_028",
+          "deck": "senza_filtro",
+          "text": "Tutti indicano chi potrebbe sedurre qualcuno senza dire una parola. Il più votato fa uno sguardo seducente a una persona consenziente oppure beve {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": true,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_029",
+          "deck": "senza_filtro",
+          "text": "{player1}, mostra l'ultima emoji provocante usata oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_030",
+          "deck": "senza_filtro",
+          "text": "Chi ha mai fantasticato su una persona presente beve {sips} sorsi oppure può non dichiararsi e bere comunque {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_031",
+          "deck": "senza_filtro",
+          "text": "{player1}, scegli una persona consenziente e recitate una scena da film erotico completamente vestiti e senza contatto, usando solo dialoghi esagerati. In alternativa, bevete {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": true,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_032",
+          "deck": "senza_filtro",
+          "text": "{player1}, racconta il complimento più sensuale che hai ricevuto oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_033",
+          "deck": "senza_filtro",
+          "text": "Tutti indicano chi potrebbe finire più facilmente in un triangolo amoroso. Il più votato beve {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_034",
+          "deck": "senza_filtro",
+          "text": "{player1}, mantieni il contatto visivo con una persona consenziente per dieci secondi. Se uno dei due rifiuta, chi ha pescato beve {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": true,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_035",
+          "deck": "senza_filtro",
+          "text": "Chi ha mai cancellato una chat per evitare domande beve {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_036",
+          "deck": "senza_filtro",
+          "text": "{player1}, qual è il gesto più seducente che qualcuno possa fare senza toccarti? Rispondi oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_037",
+          "deck": "senza_filtro",
+          "text": "{player1}, simula il rumore di un letto cigolante durante una scena appassionata oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_038",
+          "deck": "senza_filtro",
+          "text": "Tutti indicano chi sarebbe più credibile in una relazione segreta. Il più votato assegna {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_039",
+          "deck": "senza_filtro",
+          "text": "{player1}, racconta una volta in cui la tensione con qualcuno era evidente ma non è successo nulla oppure bevi {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        },
+        {
+          "id": "senza_filtro_040",
+          "deck": "senza_filtro",
+          "text": "Il gruppo può fare a {player1} una domanda piccante ma non esplicita. {player1} risponde oppure beve {sips} sorsi.",
+          "minPlayers": 3,
+          "intensity": 3,
+          "tags": [
+            "adulto",
+            "spicy",
+            "flirt",
+            "consenso"
+          ],
+          "duration": "immediata",
+          "adultOnly": true,
+          "physicalContact": false,
+          "allowDrinkAlternative": true,
+          "fallback": {
+            "type": "drink",
+            "amount": "{sips}"
+          },
+          "enabled": true,
+          "customizable": false
+        }
+      ]
+    },
+    {
+      "id": "carte_nostre",
+      "name": "Carte nostre",
+      "emoji": "✍️",
+      "description": "Modelli da personalizzare con ricordi e battute interne.",
+      "color": "#8892a6",
+      "enabled": true,
+      "version": "1.0.0",
+      "cards": [
+        {
+          "id": "carte_nostre_001",
+          "deck": "carte_nostre",
+          "text": "{player1}, racconta il vero episodio di [RICORDO DEL GRUPPO]. Chi era presente assegna {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_002",
+          "deck": "carte_nostre",
+          "text": "Chi era con noi a [LUOGO] beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_003",
+          "deck": "carte_nostre",
+          "text": "{player1}, imita [PERSONA DEL GRUPPO]. Se nessuno indovina, bevi {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_004",
+          "deck": "carte_nostre",
+          "text": "Tutti indicano chi ha pronunciato più spesso [FRASE RICORRENTE].",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_005",
+          "deck": "carte_nostre",
+          "text": "{player1}, racconta cosa è successo durante [EVENTO]. Il gruppo può correggerti.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_006",
+          "deck": "carte_nostre",
+          "text": "Chi conosce la storia di [SOPRANNOME] assegna {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_007",
+          "deck": "carte_nostre",
+          "text": "{player1}, scegli chi assomiglia di più a [PERSONAGGIO INTERNO].",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_008",
+          "deck": "carte_nostre",
+          "text": "Quando qualcuno dice [PAROLA DEL GRUPPO], deve bere {sips} sorso fino a revoca.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_009",
+          "deck": "carte_nostre",
+          "text": "{player1}, ricrea la posa della foto scattata a [EVENTO O VIAGGIO].",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_010",
+          "deck": "carte_nostre",
+          "text": "Tutti votano chi ha fatto la figuraccia peggiore a [LUOGO].",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_011",
+          "deck": "carte_nostre",
+          "text": "{player1}, racconta la versione breve di [ANEDDOTO]. Hai venti secondi.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_012",
+          "deck": "carte_nostre",
+          "text": "Chi possiede ancora [OGGETTO MEMORABILE] assegna {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_013",
+          "deck": "carte_nostre",
+          "text": "{player1} e {player2}, reinterpretate [SCENA FAMOSA DEL GRUPPO].",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_014",
+          "deck": "carte_nostre",
+          "text": "Il gruppo sceglie chi sarebbe il protagonista ideale di [STORIA INTERNA].",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_015",
+          "deck": "carte_nostre",
+          "text": "{player1}, pronuncia [FRASE TIPICA] con l'accento di [PERSONA].",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_016",
+          "deck": "carte_nostre",
+          "text": "Chi era presente a [FESTA] beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_017",
+          "deck": "carte_nostre",
+          "text": "{player1}, spiega a un estraneo immaginario che cos'è [TRADIZIONE DEL GRUPPO].",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_018",
+          "deck": "carte_nostre",
+          "text": "Tutti indicano chi ha causato [PICCOLO DISASTRO].",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_019",
+          "deck": "carte_nostre",
+          "text": "{player1}, scegli una canzone legata a [RICORDO]. Chi la riconosce assegna {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_020",
+          "deck": "carte_nostre",
+          "text": "Da ora, {player1} può essere chiamato soltanto [SOPRANNOME].",
+          "minPlayers": 3,
+          "intensity": 1,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_021",
+          "deck": "carte_nostre",
+          "text": "Chi ha inventato [BATTUTA INTERNA] beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_022",
+          "deck": "carte_nostre",
+          "text": "{player1}, racconta come hai conosciuto [PERSONA].",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_023",
+          "deck": "carte_nostre",
+          "text": "Tutti votano chi ripeterebbe oggi [IMPRESA ASSURDA].",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_024",
+          "deck": "carte_nostre",
+          "text": "{player1}, mima [OGGETTO O LUOGO DEL GRUPPO].",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_025",
+          "deck": "carte_nostre",
+          "text": "Chi ha la foto migliore di [EVENTO] assegna {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_026",
+          "deck": "carte_nostre",
+          "text": "{player1}, completa la frase: «Quella volta a [LUOGO]…».",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_027",
+          "deck": "carte_nostre",
+          "text": "Il gruppo ricostruisce in ordine gli eventi di [SERATA MEMORABILE]. Chi sbaglia beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_028",
+          "deck": "carte_nostre",
+          "text": "{player1}, racconta un dettaglio sconosciuto su [PROGETTO O VIAGGIO].",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_029",
+          "deck": "carte_nostre",
+          "text": "Tutti indicano chi è più simile a [PERSONAGGIO RICORRENTE].",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_030",
+          "deck": "carte_nostre",
+          "text": "{player1} e {player2}, fate il brindisi ufficiale di [EVENTO].",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_031",
+          "deck": "carte_nostre",
+          "text": "Chi ha partecipato a [TRADIZIONE ANNUALE] beve {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_032",
+          "deck": "carte_nostre",
+          "text": "{player1}, inventa un seguito per [ANEDDOTO].",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_033",
+          "deck": "carte_nostre",
+          "text": "Il gruppo vota il miglior nome alternativo per [LUOGO O OGGETTO].",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_034",
+          "deck": "carte_nostre",
+          "text": "{player1}, racconta il momento più assurdo vissuto con [PERSONA].",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_035",
+          "deck": "carte_nostre",
+          "text": "Chi ricorda la data di [EVENTO] assegna {sips} sorso.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_036",
+          "deck": "carte_nostre",
+          "text": "{player1}, scegli chi dovrebbe interpretarti in un film sul gruppo.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_037",
+          "deck": "carte_nostre",
+          "text": "Tutti indicano chi ha più probabilità di ripetere [ERRORE STORICO].",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_038",
+          "deck": "carte_nostre",
+          "text": "{player1}, trasforma [FRASE INTERNA] in uno slogan pubblicitario.",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_039",
+          "deck": "carte_nostre",
+          "text": "Il gruppo sceglie una nuova regola ispirata a [ABITUDINE DI QUALCUNO].",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        },
+        {
+          "id": "carte_nostre_040",
+          "deck": "carte_nostre",
+          "text": "{player1}, dedica un brindisi a [PERSONA, LUOGO O RICORDO].",
+          "minPlayers": 3,
+          "intensity": 2,
+          "tags": [
+            "personalizzabile",
+            "gruppo"
+          ],
+          "duration": "immediata",
+          "adultOnly": false,
+          "physicalContact": false,
+          "customizable": true,
+          "enabled": true,
+          "allowDrinkAlternative": true
+        }
+      ]
+    }
+  ]
+}
