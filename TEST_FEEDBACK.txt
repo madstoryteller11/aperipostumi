@@ -3,8 +3,8 @@ TEST RAPIDO FEEDBACK — v0.3.0-beta
 1. Avvia la build su http://localhost:8085/?build=0.3.0-beta
 2. Inizia una partita.
 3. Sotto la carta premi “Non mi sembra interessante”.
-4. Inserisci tester, motivo e modifica il testo.
-5. Premi “Salva proposta e cambia carta”.
+4. Modifica il testo della carta.
+5. Premi “Proponi e cambia carta”.
 6. Vai in Dati: il contatore deve essere 1.
 7. Esporta JSON e CSV.
 8. Importa lo stesso JSON: il contatore deve restare 1, senza duplicati.

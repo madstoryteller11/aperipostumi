@@ -9,10 +9,10 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="AperiPostumi">
   <meta name="description" content="AperiPost(umi), party game locale e modificabile.">
-  <link rel="manifest" href="manifest.webmanifest?v=0.3.1-pages-beta">
+  <link rel="manifest" href="manifest.webmanifest?v=0.3.1-pages-beta.1">
   <link rel="icon" href="assets/icon-192.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-  <link rel="stylesheet" href="styles.css?v=0.3.1-pages-beta">
+  <link rel="stylesheet" href="styles.css?v=0.3.1-pages-beta.1">
   <title>AperiPost(umi)</title>
 </head>
 <body>
@@ -118,40 +118,16 @@
 
           <form id="feedbackForm" class="panel feedback-form">
             <label>
-              Nome o soprannome del tester
-              <input id="testerAlias" maxlength="40" autocomplete="nickname" placeholder="Es. Polu" required>
-            </label>
-
-            <fieldset>
-              <legend>Perché non funziona?</legend>
-              <div class="feedback-reasons">
-                <label><input type="checkbox" name="feedbackReason" value="noiosa"><span>Poco interessante</span></label>
-                <label><input type="checkbox" name="feedbackReason" value="facile"><span>Troppo facile</span></label>
-                <label><input type="checkbox" name="feedbackReason" value="confusa"><span>Poco chiara</span></label>
-                <label><input type="checkbox" name="feedbackReason" value="ripetitiva"><span>Ripetitiva</span></label>
-                <label><input type="checkbox" name="feedbackReason" value="personale"><span>Troppo personale</span></label>
-                <label><input type="checkbox" name="feedbackReason" value="penalita"><span>Penalità non adatta</span></label>
-                <label><input type="checkbox" name="feedbackReason" value="tono"><span>Tono da rivedere</span></label>
-                <label><input type="checkbox" name="feedbackReason" value="altro"><span>Altro</span></label>
-              </div>
-            </fieldset>
-
-            <label>
-              Carta alternativa proposta
+              Testo alternativo
               <textarea id="feedbackProposal" rows="7" required></textarea>
               <small>Puoi modificare il testo esistente. Mantieni variabili come {player1}, {player2} e {sips} quando servono.</small>
-            </label>
-
-            <label>
-              Nota facoltativa
-              <textarea id="feedbackNotes" rows="3" placeholder="Spiega il motivo della modifica o come dovrebbe funzionare."></textarea>
             </label>
 
             <p id="feedbackFormError" class="form-error" role="alert"></p>
 
             <div class="modal-actions">
               <button id="feedbackCancelBottom" class="ghost" type="button">Annulla</button>
-              <button class="primary" type="submit">Salva proposta e cambia carta</button>
+              <button class="primary" type="submit">Proponi e cambia carta</button>
             </div>
           </form>
         </div>
@@ -188,7 +164,6 @@
         </div>
 
         <div class="feedback-tools">
-          <label>Nome tester<input id="testerAliasData" maxlength="40" placeholder="Nome o soprannome"></label>
           <button id="exportFeedbackJson" class="primary" type="button">Esporta feedback JSON</button>
           <button id="exportFeedbackCsv" class="secondary" type="button">Esporta CSV</button>
           <label class="secondary file-label">Importa e unisci JSON
@@ -258,6 +233,6 @@
   </dialog>
 
   <div id="toast" class="toast" role="status"></div>
-  <script src="app.js?v=0.3.1-pages-beta"></script>
+  <script src="app.js?v=0.3.1-pages-beta.1"></script>
 </body>
 </html>

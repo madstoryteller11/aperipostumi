@@ -1,4 +1,4 @@
-const BUILD_VERSION = '0.3.1-pages-beta';
+const BUILD_VERSION = '0.3.1-pages-beta.1';
 
 const APP = {
   storageKey: 'aperipostumi.library.v1',
@@ -10,8 +10,7 @@ const APP = {
   settings: {
     players: [],
     selectedDecks: ['aperitivo','confessioni','sfide','regole_assurde'],
-    sips: 2,
-    testerAlias: ''
+    sips: 2
   },
   game: null,
   pendingFeedback: null,
@@ -70,8 +69,6 @@ function bindEvents(){
   $('#feedbackCancelBtn').addEventListener('click',cancelFeedback);
   $('#feedbackCancelBottom').addEventListener('click',cancelFeedback);
   $('#feedbackForm').addEventListener('submit',saveCardFeedback);
-  $('#testerAlias').addEventListener('input',syncTesterAlias);
-  $('#testerAliasData').addEventListener('input',syncTesterAliasFromData);
   $('#exportFeedbackJson').addEventListener('click',exportFeedbackJSON);
   $('#exportFeedbackCsv').addEventListener('click',exportFeedbackCSV);
   $('#importFeedbackInput').addEventListener('change',importFeedback);
@@ -462,17 +459,6 @@ function showRules(){
 }
 
 
-const FEEDBACK_REASONS = {
-  noiosa: 'Poco interessante',
-  facile: 'Troppo facile',
-  confusa: 'Poco chiara',
-  ripetitiva: 'Ripetitiva',
-  personale: 'Troppo personale',
-  penalita: 'Penalità non adatta',
-  tono: 'Tono da rivedere',
-  altro: 'Altro'
-};
-
 function simpleHash(value=''){
   let hash=2166136261;
   for(let i=0;i<value.length;i++){
@@ -502,10 +488,7 @@ function openFeedbackScreen(){
   $('#feedbackOriginalDeck').textContent=`${card._deck?.emoji||''} ${card._deck?.name||card.deck||'Mazzo'}`;
   $('#feedbackOriginalText').innerHTML=card._renderedHTML||renderCardText(card.text,card._context||createCardContext(card));
   $('#feedbackCardId').textContent=card.id;
-  $('#testerAlias').value=APP.settings.testerAlias||'';
   $('#feedbackProposal').value=card.text||'';
-  $('#feedbackNotes').value='';
-  $$('input[name=feedbackReason]').forEach(input=>input.checked=false);
   $('#feedbackFormError').textContent='';
   navigate('feedback');
   window.setTimeout(()=>$('#feedbackProposal').focus(),120);
@@ -516,18 +499,6 @@ function cancelFeedback(){
   navigate(APP.game?'game':'setup');
 }
 
-function syncTesterAlias(e){
-  APP.settings.testerAlias=e.target.value.trimStart().slice(0,40);
-  saveSettings();
-  const dataInput=$('#testerAliasData');
-  if(dataInput)dataInput.value=APP.settings.testerAlias;
-}
-
-function syncTesterAliasFromData(e){
-  APP.settings.testerAlias=e.target.value.trimStart().slice(0,40);
-  saveSettings();
-}
-
 function saveCardFeedback(e){
   e.preventDefault();
   const pending=APP.pendingFeedback;
@@ -536,20 +507,9 @@ function saveCardFeedback(e){
     return;
   }
 
-  const tester=($('#testerAlias').value||'').trim();
   const proposal=($('#feedbackProposal').value||'').trim();
-  const notes=($('#feedbackNotes').value||'').trim();
-  const reasons=$$('input[name=feedbackReason]:checked').map(input=>input.value);
   const original=(pending.card.text||'').trim();
 
-  if(!tester){
-    $('#feedbackFormError').textContent='Inserisci il nome o soprannome del tester.';
-    return;
-  }
-  if(!reasons.length){
-    $('#feedbackFormError').textContent='Seleziona almeno un motivo.';
-    return;
-  }
   if(!proposal){
     $('#feedbackFormError').textContent='Scrivi una proposta alternativa.';
     return;
@@ -559,15 +519,11 @@ function saveCardFeedback(e){
     return;
   }
 
-  APP.settings.testerAlias=tester;
-  saveSettings();
-
   const card=pending.card;
   const entry={
     id:uid('feedback'),
     schemaVersion:1,
     installId:APP.feedback.installId,
-    testerAlias:tester,
     buildVersion:BUILD_VERSION,
     contentVersion:APP.defaults?.contentVersion||APP.defaults?.version||null,
     sessionId:pending.sessionId,
@@ -579,9 +535,6 @@ function saveCardFeedback(e){
     originalText:original,
     renderedText:card._renderedPlain||plainTextFromHTML(card._renderedHTML||original),
     proposedText:proposal,
-    reasonCodes:reasons,
-    reasonLabels:reasons.map(code=>FEEDBACK_REASONS[code]||code),
-    notes,
     cardMetadata:{
       minPlayers:Number(card.minPlayers||2),
       difficulty:Number(card.intensity||1),
@@ -626,7 +579,6 @@ function renderFeedbackDashboard(){
   const entries=[...APP.feedback.entries].sort((a,b)=>String(b.createdAt).localeCompare(String(a.createdAt)));
   const summary=feedbackSummary(entries);
 
-  $('#testerAliasData').value=APP.settings.testerAlias||'';
   $('#feedbackCount').textContent=summary.total;
   $('#feedbackCardCount').textContent=summary.uniqueCards;
   $('#feedbackInstallId').textContent=APP.feedback.installId;
@@ -638,7 +590,6 @@ function renderFeedbackDashboard(){
   }
 
   list.innerHTML=entries.slice(0,100).map(entry=>{
-    const reasons=(entry.reasonLabels||entry.reasonCodes||[]).join(' · ');
     return `<article class="feedback-record">
       <div class="feedback-record-head">
         <div>
@@ -651,8 +602,6 @@ function renderFeedbackDashboard(){
       <p class="feedback-arrow">→</p>
       <p class="feedback-proposal-small">${escapeHTML(entry.proposedText||'')}</p>
       <footer>
-        <span>${escapeHTML(entry.testerAlias||'Tester')}</span>
-        <span>${escapeHTML(reasons)}</span>
         <time>${escapeHTML(formatFeedbackDate(entry.createdAt))}</time>
       </footer>
     </article>`;
@@ -712,7 +661,6 @@ function feedbackExportPayload(){
     buildVersion:BUILD_VERSION,
     exportedAt:new Date().toISOString(),
     installId:APP.feedback.installId,
-    testerAlias:APP.settings.testerAlias||'',
     summary:feedbackSummary(entries),
     entries
   };
@@ -721,12 +669,12 @@ function feedbackExportPayload(){
 function exportFeedbackJSON(){
   if(!APP.feedback.entries.length)return toast('Nessun feedback da esportare');
   const payload=feedbackExportPayload();
-  const tester=safeFilenamePart(APP.settings.testerAlias||APP.feedback.installId);
+  const installId=safeFilenamePart(APP.feedback.installId);
   const date=new Date().toISOString().slice(0,10);
   downloadFile(
     JSON.stringify(payload,null,2),
     'application/json',
-    `aperipostumi-feedback-${tester}-${date}.json`
+    `aperipostumi-feedback-${installId}-${date}.json`
   );
   toast('Feedback JSON esportato');
 }
@@ -739,9 +687,9 @@ function csvCell(value){
 function exportFeedbackCSV(){
   if(!APP.feedback.entries.length)return toast('Nessun feedback da esportare');
   const columns=[
-    'id','testerAlias','createdAt','buildVersion','sessionId',
+    'id','createdAt','buildVersion','sessionId',
     'deckId','deckName','cardId','originalHash','originalText',
-    'proposedText','reasonCodes','reasonLabels','notes',
+    'proposedText',
     'minPlayers','difficulty','duration','adultOnly','physicalContact','tags'
   ];
   const rows=[columns.map(csvCell).join(';')];
@@ -760,12 +708,12 @@ function exportFeedbackCSV(){
     rows.push(columns.map(key=>csvCell(row[key])).join(';'));
   });
 
-  const tester=safeFilenamePart(APP.settings.testerAlias||APP.feedback.installId);
+  const installId=safeFilenamePart(APP.feedback.installId);
   const date=new Date().toISOString().slice(0,10);
   downloadFile(
     '\ufeff'+rows.join('\r\n'),
     'text/csv;charset=utf-8',
-    `aperipostumi-feedback-${tester}-${date}.csv`
+    `aperipostumi-feedback-${installId}-${date}.csv`
   );
   toast('Feedback CSV esportato');
 }
