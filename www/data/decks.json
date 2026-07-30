@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.3.1-pages-beta",
+  "contentVersion": "0.3.1-pages-beta.2",
   "game": "AperiPost(umi)",
   "contact": "madstoryteller11@gmail.com",
   "decks": [
@@ -3443,7 +3443,7 @@
         {
           "id": "tutti_contro_tutti_040",
           "deck": "tutti_contro_tutti",
-          "text": "Finale collettivo: tutti brindano. Chi dimentica lo slogan della partita beve {sips} sorso.",
+          "text": "Finale collettivo: tutti brindano e si urla VALERIOOOO.",
           "minPlayers": 4,
           "intensity": 2,
           "tags": [
@@ -4669,7 +4669,7 @@
         {
           "id": "senza_filtro_023",
           "deck": "senza_filtro",
-          "text": "Tutti indicano chi sarebbe più pericoloso dopo due complimenti e uno sguardo. Il prescelto assegna {sips} sorsi.",
+          "text": "Tutti indicano chi ci rimarrebbe più fregato dopo due complimenti e uno sguardo. Il prescelto assegna {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [

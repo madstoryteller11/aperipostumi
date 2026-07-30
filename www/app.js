@@ -1,4 +1,4 @@
-const BUILD_VERSION = '0.3.1-pages-beta.1';
+const BUILD_VERSION = '0.3.1-pages-beta.2';
 
 const APP = {
   storageKey: 'aperipostumi.library.v1',
@@ -27,7 +27,9 @@ const uid = prefix => `${prefix}_${Date.now()}_${Math.random().toString(36).slic
 async function init(){
   const response = await fetch(`data/decks.json?v=${BUILD_VERSION}`, {cache:'no-store'});
   APP.defaults = await response.json();
-  APP.library = loadJSON(APP.storageKey) || clone(APP.defaults);
+  const savedLibrary=loadJSON(APP.storageKey);
+  APP.library = savedLibrary || clone(APP.defaults);
+  if(savedLibrary)migrateLibraryContent();
   APP.settings = {...APP.settings, ...(loadJSON(APP.settingsKey)||{})};
   APP.feedback = loadJSON(APP.feedbackKey) || {
     schemaVersion: 1,
@@ -53,6 +55,34 @@ function toast(message){ const t=$('#toast'); t.textContent=message; t.classList
 function escapeHTML(s=''){ return s.replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c])); }
 function shuffle(a){ for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
 function deckById(id){ return APP.library.decks.find(d=>d.id===id); }
+
+function migrateLibraryContent(){
+  const patches={
+    tutti_contro_tutti_040:{
+      from:'Finale collettivo: tutti brindano. Chi dimentica lo slogan della partita beve {sips} sorso.',
+      to:'Finale collettivo: tutti brindano e si urla VALERIOOOO.'
+    },
+    senza_filtro_023:{
+      from:'Tutti indicano chi sarebbe più pericoloso dopo due complimenti e uno sguardo. Il prescelto assegna {sips} sorsi.',
+      to:'Tutti indicano chi ci rimarrebbe più fregato dopo due complimenti e uno sguardo. Il prescelto assegna {sips} sorsi.'
+    }
+  };
+  let changed=false;
+  (APP.library.decks||[]).forEach(deck=>{
+    (deck.cards||[]).forEach(card=>{
+      const patch=patches[card.id];
+      if(patch && card.text===patch.from){
+        card.text=patch.to;
+        changed=true;
+      }
+    });
+  });
+  if(APP.library.contentVersion!==APP.defaults.contentVersion){
+    APP.library.contentVersion=APP.defaults.contentVersion;
+    changed=true;
+  }
+  if(changed)saveLibrary();
+}
 
 function bindEvents(){
   $$('[data-nav]').forEach(b=>b.addEventListener('click',()=>navigate(b.dataset.nav)));
