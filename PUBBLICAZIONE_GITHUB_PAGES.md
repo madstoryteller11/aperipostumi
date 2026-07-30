@@ -1,41 +1,31 @@
 # Pubblicazione su GitHub Pages
 
-Account GitHub collegato: `Polu11`  
-Repository consigliato: `aperipostumi`  
-Indirizzo previsto: `https://polu11.github.io/aperipostumi/`
+Repository: `madstoryteller11/aperipostumi`
+App: <https://madstoryteller11.github.io/aperipostumi/>
 
-## Crea il repository
+## Configurazione
 
-Crea un repository GitHub con:
+1. Apri **Settings → Pages** nel repository.
+2. In **Build and deployment**, seleziona **GitHub Actions**.
+3. Controlla ogni pubblicazione nella scheda **Actions**.
 
-- nome: `aperipostumi`
-- visibilità: `Public`
-- nessun README iniziale;
-- nessun `.gitignore` iniziale;
-- nessuna licenza iniziale.
+Il workflow `.github/workflows/deploy-pages.yml` pubblica la cartella `www` a
+ogni aggiornamento del branch `main`.
 
-## Carica il progetto
+## Raccolta dei feedback
 
-Carica nella radice del repository tutto il contenuto di questa cartella,
-incluse `.github` e `www`.
+I feedback non vengono trasmessi a un server: rimangono nel browser o nella
+PWA del tester.
 
-## Abilita Pages
+Ogni tester deve:
 
-1. Apri `Settings`.
-2. Apri `Pages`.
-3. In `Build and deployment`, seleziona `GitHub Actions`.
-4. Controlla il deploy nella scheda `Actions`.
+1. proporre i testi alternativi durante la partita;
+2. aprire **Dati**;
+3. premere **Esporta feedback JSON**;
+4. inviare il file JSON al responsabile del beta test.
 
-Il workflow pubblica la cartella `www` a ogni commit su `main`.
+Il responsabile può aprire **Dati → Importa e unisci JSON**, selezionare anche
+più file contemporaneamente ed esportare un archivio JSON unico.
 
-## Link previsto
-
-`https://polu11.github.io/aperipostumi/`
-
-## Feedback della beta
-
-I feedback rimangono sul telefono. Ogni tester deve usare:
-
-`Dati → Esporta feedback JSON`
-
-prima di cancellare l'app o i dati del browser.
+Il messaggio da condividere insieme al link è disponibile in
+`MESSAGGIO_BETA_TESTER.md`.
