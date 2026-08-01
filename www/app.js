@@ -1,4 +1,4 @@
-const BUILD_VERSION = '0.3.1-pages-beta.4';
+const BUILD_VERSION = '0.3.1-pages-beta.5';
 const REMOVED_DECK_IDS = new Set(['carte_nostre']);
 
 const APP = {

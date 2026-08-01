@@ -1,4 +1,4 @@
-const CACHE='aperipostumi-0.3.1-pages-beta.4';
+const CACHE='aperipostumi-0.3.1-pages-beta.5';
 const OFFLINE_ASSETS=[
   './',
   'index.html',
@@ -6,6 +6,7 @@ const OFFLINE_ASSETS=[
   'app.js',
   'manifest.webmanifest',
   'data/decks.json',
+  'assets/logo-web.png',
   'assets/icon-192.png',
   'assets/icon-512.png',
   'assets/icon-maskable-192.png',

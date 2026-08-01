@@ -9,16 +9,16 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="AperiPostumi">
   <meta name="description" content="AperiPost(umi), party game locale e modificabile.">
-  <link rel="manifest" href="manifest.webmanifest?v=0.3.1-pages-beta.4">
-  <link rel="icon" href="assets/icon-192.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-  <link rel="stylesheet" href="styles.css?v=0.3.1-pages-beta.4">
+  <link rel="manifest" href="manifest.webmanifest?v=0.3.1-pages-beta.5">
+  <link rel="icon" href="assets/icon-192.png?v=0.3.1-pages-beta.5">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=0.3.1-pages-beta.5">
+  <link rel="stylesheet" href="styles.css?v=0.3.1-pages-beta.5">
   <title>AperiPost(umi)</title>
 </head>
 <body>
   <header class="app-header">
     <button class="brand" data-nav="setup" aria-label="Torna alla partita">
-      <span class="brand-mark">A(P)</span>
+      <img class="brand-mark" src="assets/icon-192.png" alt="">
       <span><b>AperiPost</b><em>(umi)</em></span>
       <small class="build-badge beta-badge">v0.3.1 beta</small>
     </button>
@@ -33,6 +33,7 @@
   <main>
     <section id="screen-setup" class="screen active">
       <div class="hero">
+        <img class="hero-logo" src="assets/logo-web.png" alt="AperiPost(umi)">
         <p class="eyebrow">PARTY GAME OFFLINE</p>
         <h1>L'aperitivo passa.<br><span>I postumi restano.</span></h1>
         <p>Mischia i mazzi, inserisci i nomi e gioca. Ogni prova è facoltativa: l'alternativa è bere i sorsi indicati.</p>
@@ -249,6 +250,6 @@
   </dialog>
 
   <div id="toast" class="toast" role="status"></div>
-  <script src="app.js?v=0.3.1-pages-beta.4"></script>
+  <script src="app.js?v=0.3.1-pages-beta.5"></script>
 </body>
 </html>
