@@ -1,4 +1,5 @@
-const BUILD_VERSION = '0.3.1-pages-beta.3';
+const BUILD_VERSION = '0.3.1-pages-beta.4';
+const REMOVED_DECK_IDS = new Set(['carte_nostre']);
 
 const APP = {
   storageKey: 'aperipostumi.library.v1',
@@ -27,10 +28,16 @@ const uid = prefix => `${prefix}_${Date.now()}_${Math.random().toString(36).slic
 async function init(){
   const response = await fetch(`data/decks.json?v=${BUILD_VERSION}`, {cache:'no-store'});
   APP.defaults = await response.json();
+  APP.defaults.decks=APP.defaults.decks.filter(deck=>!REMOVED_DECK_IDS.has(deck.id));
   const savedLibrary=loadJSON(APP.storageKey);
   APP.library = savedLibrary || clone(APP.defaults);
   if(savedLibrary)migrateLibraryContent();
   APP.settings = {...APP.settings, ...(loadJSON(APP.settingsKey)||{})};
+  const selectedDecks=APP.settings.selectedDecks.filter(id=>!REMOVED_DECK_IDS.has(id));
+  if(selectedDecks.length!==APP.settings.selectedDecks.length){
+    APP.settings.selectedDecks=selectedDecks;
+    saveSettings();
+  }
   APP.feedback = loadJSON(APP.feedbackKey) || {
     schemaVersion: 1,
     installId: uid('install'),
@@ -67,7 +74,9 @@ function migrateLibraryContent(){
       to:'Tutti indicano chi ci rimarrebbe più fregato dopo due complimenti e uno sguardo. Il prescelto assegna {sips} sorsi.'
     }
   };
-  let changed=false;
+  const deckCount=APP.library.decks.length;
+  APP.library.decks=APP.library.decks.filter(deck=>!REMOVED_DECK_IDS.has(deck.id));
+  let changed=APP.library.decks.length!==deckCount;
   (APP.library.decks||[]).forEach(deck=>{
     (deck.cards||[]).forEach(card=>{
       const patch=patches[card.id];

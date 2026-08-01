@@ -1,7 +1,7 @@
 # AperiPost(umi) — beta
 
 Party game installabile su iPhone, iPad, Android e computer. Funziona anche
-offline e comprende 8 mazzi e 320 carte.
+offline e comprende 7 mazzi e 280 carte.
 
 ## Apri l'app
 
