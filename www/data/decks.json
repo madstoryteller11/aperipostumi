@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.3.1-pages-beta.2",
+  "contentVersion": "0.3.1-pages-beta.3",
   "game": "AperiPost(umi)",
   "contact": "madstoryteller11@gmail.com",
   "decks": [
@@ -4232,7 +4232,7 @@
         {
           "id": "senza_filtro_004",
           "deck": "senza_filtro",
-          "text": "{player1}, rivela il tuo tipo ideale in tre parole oppure bevi {sips} sorsi.",
+          "text": "{player1}, descrivi in tre parole il tuo tipo ideale a letto oppure bevi {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [
@@ -4301,7 +4301,7 @@
         {
           "id": "senza_filtro_007",
           "deck": "senza_filtro",
-          "text": "{player1}, fai un complimento apertamente seducente a {player2}, se entrambi siete d'accordo. In alternativa, bevi {sips} sorsi.",
+          "text": "{player1}, fai un complimento apertamente spinto a {player2}. In alternativa, bevi {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [
@@ -4347,7 +4347,7 @@
         {
           "id": "senza_filtro_009",
           "deck": "senza_filtro",
-          "text": "{player1}, racconta la tua peggior figuraccia durante un momento romantico oppure bevi {sips} sorsi.",
+          "text": "{player1}, racconta la tua peggior figuraccia durante un momento erotico oppure bevi {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [
@@ -4393,7 +4393,7 @@
         {
           "id": "senza_filtro_011",
           "deck": "senza_filtro",
-          "text": "{player1}, mima da solo una posizione del Kamasutra scelta dal gruppo, senza contatto con nessuno, oppure bevi {sips} sorsi.",
+          "text": "{player1}, mima da solo una posizione del Kamasutra scelta dal gruppo oppure bevi {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [
@@ -4462,7 +4462,7 @@
         {
           "id": "senza_filtro_014",
           "deck": "senza_filtro",
-          "text": "{player1}, racconta una fantasia seducente che puoi condividere senza disagio oppure bevi {sips} sorsi.",
+          "text": "{player1}, racconta una fantasia seducente oppure bevi {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [
@@ -4508,7 +4508,7 @@
         {
           "id": "senza_filtro_016",
           "deck": "senza_filtro",
-          "text": "{player1}, scegli una persona consenziente e mimate insieme una posizione del Kamasutra completamente vestiti e senza contatto intimo. In alternativa, entrambi bevete {sips} sorsi.",
+          "text": "{player1}, scegli una persona consenziente e mimate insieme una posizione del Kamasutra. In alternativa, entrambi bevete {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [
@@ -4531,7 +4531,7 @@
         {
           "id": "senza_filtro_017",
           "deck": "senza_filtro",
-          "text": "{player1}, descrivi il tuo appuntamento perfetto dopo mezzanotte oppure bevi {sips} sorsi.",
+          "text": "{player1}, descrivi il tuo appuntamento erotico ideale oppure bevi {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [
@@ -4577,7 +4577,7 @@
         {
           "id": "senza_filtro_019",
           "deck": "senza_filtro",
-          "text": "{player1}, racconta la frase più audace che hai detto o ricevuto oppure bevi {sips} sorsi.",
+          "text": "{player1}, racconta la frase più sporca che hai detto a letto oppure bevi {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [
@@ -4761,7 +4761,7 @@
         {
           "id": "senza_filtro_027",
           "deck": "senza_filtro",
-          "text": "{player1}, qual è il luogo più strano in cui baceresti qualcuno? Rispondi oppure bevi {sips} sorsi.",
+          "text": "{player1}, qual è il luogo più strano in cui faresti sesso con qualcuno? Rispondi oppure bevi {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [
@@ -4807,7 +4807,7 @@
         {
           "id": "senza_filtro_029",
           "deck": "senza_filtro",
-          "text": "{player1}, mostra l'ultima emoji provocante usata oppure bevi {sips} sorsi.",
+          "text": "{player1}, racconta qual è l'ultima foto provocante che hai scattato o inviato, senza mostrarla, oppure bevi {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [
@@ -4830,7 +4830,7 @@
         {
           "id": "senza_filtro_030",
           "deck": "senza_filtro",
-          "text": "Chi ha mai fantasticato su una persona presente beve {sips} sorsi oppure può non dichiararsi e bere comunque {sips} sorsi.",
+          "text": "Chi ha mai fantasticato su una persona presente beve {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [
@@ -4853,7 +4853,7 @@
         {
           "id": "senza_filtro_031",
           "deck": "senza_filtro",
-          "text": "{player1}, scegli una persona consenziente e recitate una scena da film erotico completamente vestiti e senza contatto, usando solo dialoghi esagerati. In alternativa, bevete {sips} sorsi.",
+          "text": "{player1}, scegli una persona consenziente e recitate una scena da film erotico usando solo dialoghi esagerati. In alternativa, bevete {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [
@@ -4922,7 +4922,7 @@
         {
           "id": "senza_filtro_034",
           "deck": "senza_filtro",
-          "text": "{player1}, mantieni il contatto visivo con una persona consenziente per dieci secondi. Se uno dei due rifiuta, chi ha pescato beve {sips} sorsi.",
+          "text": "{player1}, mantieni il contatto visivo con una persona per dieci secondi. Se uno dei due rifiuta o molla, chi ha pescato beve {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [
@@ -4968,7 +4968,7 @@
         {
           "id": "senza_filtro_036",
           "deck": "senza_filtro",
-          "text": "{player1}, qual è il gesto più seducente che qualcuno possa fare senza toccarti? Rispondi oppure bevi {sips} sorsi.",
+          "text": "{player1}, qual è il gesto più seducente che qualcuno possa fare? Rispondi oppure bevi {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [
@@ -5037,7 +5037,7 @@
         {
           "id": "senza_filtro_039",
           "deck": "senza_filtro",
-          "text": "{player1}, racconta una volta in cui la tensione con qualcuno era evidente ma non è successo nulla oppure bevi {sips} sorsi.",
+          "text": "{player1}, racconta una volta in cui la tensione sessuale con qualcuno era evidente ma non è successo nulla oppure bevi {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [
@@ -5060,7 +5060,7 @@
         {
           "id": "senza_filtro_040",
           "deck": "senza_filtro",
-          "text": "Il gruppo può fare a {player1} una domanda piccante ma non esplicita. {player1} risponde oppure beve {sips} sorsi.",
+          "text": "Il gruppo può fare a {player1} una domanda piccante. {player1} risponde oppure beve {sips} sorsi.",
           "minPlayers": 3,
           "intensity": 3,
           "tags": [

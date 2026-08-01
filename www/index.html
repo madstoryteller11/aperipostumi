@@ -9,10 +9,10 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="AperiPostumi">
   <meta name="description" content="AperiPost(umi), party game locale e modificabile.">
-  <link rel="manifest" href="manifest.webmanifest?v=0.3.1-pages-beta.2">
+  <link rel="manifest" href="manifest.webmanifest?v=0.3.1-pages-beta.3">
   <link rel="icon" href="assets/icon-192.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-  <link rel="stylesheet" href="styles.css?v=0.3.1-pages-beta.2">
+  <link rel="stylesheet" href="styles.css?v=0.3.1-pages-beta.3">
   <title>AperiPost(umi)</title>
 </head>
 <body>
@@ -67,7 +67,7 @@
         <div><strong id="selectedSummary">0 carte selezionate</strong><small>Le carte non compatibili con il numero di giocatori saranno escluse.</small></div>
         <button id="startGame" class="primary large">Inizia · 50 carte</button>
       </div>
-      <div class="safety-note">🔞 “Senza filtro” è riservato ai maggiorenni. Non guidare dopo aver bevuto. Puoi sempre usare bevande analcoliche o punti penalità.</div>
+      <div class="safety-note">🔞 AperiPost(umi) è riservato ai maggiorenni. Non guidare dopo aver bevuto. Puoi sempre usare bevande analcoliche o punti penalità.</div>
     </section>
 
     <section id="screen-game" class="screen">
@@ -185,6 +185,22 @@
     </section>
   </main>
 
+  <dialog id="hotDeckDialog" class="modal compact hot-disclaimer">
+    <div class="modal-head"><h2>Prima di giocare a “Senza filtro”</h2></div>
+    <p>L’intera app è riservata ai maggiorenni. Questo mazzo contiene domande e sfide più esplicite.</p>
+    <ul>
+      <li>Ogni interazione richiede il consenso esplicito di tutte le persone coinvolte.</li>
+      <li>Il consenso può essere ritirato in qualsiasi momento, senza spiegazioni.</li>
+      <li>Chiunque può rifiutare una carta e scegliere l’alternativa, senza pressioni.</li>
+      <li>Nessuno deve mostrare foto, messaggi o altri contenuti privati.</li>
+      <li>Rispetta sempre i limiti personali e fisici degli altri partecipanti.</li>
+    </ul>
+    <div class="modal-actions">
+      <button id="cancelHotDeck" class="ghost" type="button">Torna indietro</button>
+      <button id="confirmHotDeck" class="primary" type="button">Ho capito, inizia</button>
+    </div>
+  </dialog>
+
   <dialog id="cardDialog" class="modal">
     <form id="cardForm" method="dialog">
       <div class="modal-head"><h2 id="cardDialogTitle">Modifica carta</h2><button value="cancel" class="icon-btn" aria-label="Chiudi">×</button></div>
@@ -233,6 +249,6 @@
   </dialog>
 
   <div id="toast" class="toast" role="status"></div>
-  <script src="app.js?v=0.3.1-pages-beta.2"></script>
+  <script src="app.js?v=0.3.1-pages-beta.3"></script>
 </body>
 </html>

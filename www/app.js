@@ -1,4 +1,4 @@
-const BUILD_VERSION = '0.3.1-pages-beta.2';
+const BUILD_VERSION = '0.3.1-pages-beta.3';
 
 const APP = {
   storageKey: 'aperipostumi.library.v1',
@@ -77,6 +77,24 @@ function migrateLibraryContent(){
       }
     });
   });
+  const contentPatchIds=new Set([
+    'senza_filtro_004','senza_filtro_007','senza_filtro_009','senza_filtro_011',
+    'senza_filtro_014','senza_filtro_016','senza_filtro_017','senza_filtro_019',
+    'senza_filtro_027','senza_filtro_029','senza_filtro_030','senza_filtro_031',
+    'senza_filtro_034','senza_filtro_036','senza_filtro_039','senza_filtro_040'
+  ]);
+  const defaultCards=new Map(
+    (APP.defaults.decks||[]).flatMap(deck=>(deck.cards||[]).map(card=>[card.id,card]))
+  );
+  (APP.library.decks||[]).forEach(deck=>{
+    (deck.cards||[]).forEach(card=>{
+      const updated=defaultCards.get(card.id);
+      if(contentPatchIds.has(card.id) && card.customizable!==true && updated && card.text!==updated.text){
+        card.text=updated.text;
+        changed=true;
+      }
+    });
+  });
   if(APP.library.contentVersion!==APP.defaults.contentVersion){
     APP.library.contentVersion=APP.defaults.contentVersion;
     changed=true;
@@ -90,6 +108,8 @@ function bindEvents(){
   $('#toggleAllDecks').addEventListener('click',()=>{const ids=APP.library.decks.filter(d=>d.enabled!==false).map(d=>d.id);APP.settings.selectedDecks=APP.settings.selectedDecks.length===ids.length?[]:ids;saveSettings();renderDeckPicker();});
   $('#intensityOptions').addEventListener('change',e=>{if(e.target.name==='sips'){APP.settings.sips=Number(e.target.value);saveSettings();renderSetup();}});
   $('#startGame').addEventListener('click',startGame);
+  $('#cancelHotDeck').addEventListener('click',()=>$('#hotDeckDialog').close());
+  $('#confirmHotDeck').addEventListener('click',()=>{$('#hotDeckDialog').close();beginGame();});
   $('#quitGame').addEventListener('click',()=>{ if(confirm('Uscire dalla partita in corso?')){ APP.game=null; navigate('setup'); } });
   $('#finishGameBtn').addEventListener('click',showFinaleCard);
   $('#rulesBtn').addEventListener('click',showRules);
@@ -226,7 +246,12 @@ function startGame(){
   if(players.length<2)return toast('Aggiungi almeno 2 giocatori');
   if(!APP.settings.selectedDecks.length)return toast('Seleziona almeno un mazzo');
   const hasAdult=APP.library.decks.some(d=>APP.settings.selectedDecks.includes(d.id)&&d.adultOnly);
-  if(hasAdult&&!confirm('Il mazzo Senza filtro è riservato ai maggiorenni. Confermi che tutti i partecipanti hanno almeno 18 anni?'))return;
+  if(hasAdult)return $('#hotDeckDialog').showModal();
+  beginGame();
+}
+
+function beginGame(){
+  const players=APP.settings.players;
   const pool=[];
   APP.library.decks.filter(d=>APP.settings.selectedDecks.includes(d.id)).forEach(d=>d.cards.forEach(c=>{
     if(c.enabled!==false && Number(c.minPlayers||2)<=players.length){

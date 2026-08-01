@@ -1,4 +1,4 @@
-const CACHE='aperipostumi-0.3.1-pages-beta.2';
+const CACHE='aperipostumi-0.3.1-pages-beta.3';
 const OFFLINE_ASSETS=[
   './',
   'index.html',
